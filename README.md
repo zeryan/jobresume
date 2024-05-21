@@ -1,7 +1,7 @@
 # Zeryán Guerra
 ## Mining Operations Engineer
 
-**Contact:**
+##Contact:
 - Phone: [+569 5460 7132](tel:+56954607132)
 - Email: [zeryan.guerra@gmail.com](mailto:zeryan.g@gmail.com)
 - Location: La Serena, Chile (Available to move to any national or international destination)
@@ -20,8 +20,6 @@ Experienced Mining Operations Engineer with 10+ years in project development and
 - **Communication and Leadership:** Excellent communication and interpersonal skills, with proven ability to lead and motivate teams. Fluent in English (TOEFLS: 100/120, 2021) and Spanish.
 
 ## Work Experience
-
-**(Note: I'm omitting the images from the HTML in this Markdown conversion. You can add image links back if you want to host them on GitHub.)**
 
 **2024 to Date:** Powerchina Huadong Engineering Corporation Agencia en Chile. María Elena, Chile.
 - **Project:** Solar and Wind EPC Contract Tenders.
