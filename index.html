@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeryán Guerra - Mining Operations Engineer</title>
+    <link rel="stylesheet" href="path-to-dialog-polyfill/dialog-polyfill.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        header {
+            position: relative;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            background-size: 100% auto;
+            background-position: center;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://media.licdn.com/dms/image/D4E16AQG4lFe7aChPZQ/profile-displaybackgroundimage-shrink_350_1400/0/1706283106780?e=1721865600&v=beta&t=w1y0L1nlfbrusT5-n6JKGH7Rm4pTJ1_D9I_FXR7bsak");
+            background-size: 100% auto;
+            background-position: center;
+            filter: grayscale(100%) brightness(50%);
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        h2 {
+            color: white;
+        }
+
+        h3 {
+            color: #35495E;
+        }
+
+        .lead {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #2980b9;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .project-link, .position-link, .employer-link, .publication-link, .study-link, .skill-link {
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+        .position-text {
+            color: #333;
+        }
+
+        .text-container {
+            width: 75%;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: left;
+        }
+
+        .row {
+            display: flex;
+            margin-bottom: 1rem;
+        }
+
+        .image-container {
+            width: 25%;
+            overflow: hidden;
+            margin-left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1001;
+            border-radius: 8px;
+            max-width: 90%;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        #popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 1000;
+        }
+
+        .skill-link {
+            cursor: pointer;
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+        .skill-link:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Zeryán Guerra</h1>
+            <h2>Mining Operations Engineer</h2>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h3>Contact</h3>
+            <ul>
+                <li>Phone: <a href="tel:+56954607132">+569 5460 7132</a></li>
+                <li>Email: <a href="mailto:zeryan.guerra@gmail.com">zeryan.guerra@gmail.com</a></li>
+                <li>Location: La Serena, Chile (Available to move to any national or international location)</li>
+            </ul>
+            
+            <h3>Summary</h3>
+            <p class="lead">
+                Experienced Mining Engineer with 10+ years in project development and management across various industries, including mining, construction, and renewable energy. Proven ability to manage large-scale projects (US$150M/year) on time and within budget using data-driven approaches. Passionate about leveraging technology like AI and computer vision for project optimization. Seeking a challenging role in underground mining or power plant construction to contribute to project success and business growth through operational excellence and cutting-edge technology implementation.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h3>Skills</h3>
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li>
+                            <strong>
+                                <a class="skill-link" href="#" onclick="showPopup('popup1')">Contract Management:</a>
+                            </strong> 
+                            Extensive experience in tender management, subcontractor payment management, dispute resolution, and contract closing.
+                        </li>
+                        <li>
+                            <strong>
+                                <a class="skill-link" href="#" onclick="showPopup('popup2')">Cost Control:</a>
+                            </strong>
+                            Strong understanding of project cost estimation, budgeting, and control techniques. Expertise in analyzing contractor reports to estimate daily construction costs and progress.
+                        </li>
+                        <li>
+                            <strong>
+                                <a class="skill-link" href="#" onclick="showPopup('popup3')">Technical Expertise:</a>
+                            </strong> 
+                            In-depth knowledge of underground mining and construction projects, including mining and construction methods, equipment, and safety procedures.
+                        </li>
+                        <li>
+                            <strong>
+                                <a class="skill-link" href="#" onclick="showPopup('popup4')">Data Analysis:</a>
+                            </strong> 
+                            Proficient in data analysis and reporting using Python and MS Excel, utilizing data to track project progress, identify trends, and make informed decisions.
+                        </li>
+                        <li>
+                            <strong>
+                                <a class="skill-link" href="#" onclick="showPopup('popup5')">Technology Integration:</a>
+                            </strong>
+                            Actively exploring and implementing cutting-edge technologies like generative AI and computer vision to enhance project management processes.
+                        </li>
+                        <li>
+                            <strong>
+                                <a class="skill-link" href="#" onclick="showPopup('popup6')">Communication and Leadership:</a>
+                            </strong>
+                            Excellent communication and interpersonal skills, with proven ability to lead and motivate teams. Fluent in English (TOEFLS: 100/120, 2021) and Spanish.
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://media.licdn.com/dms/image/D4E22AQE69Tcn1Yw1IQ/feedshare-shrink_2048_1536/0/1715900213546?e=1719446400&v=beta&t=1BZNHqOVDaHLfSGIHIrHRwF_CuCrTwdLGzw0TN0JyPk" alt="Job Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <dialog id="dialog" style="border: none; border-radius: 8px; padding: 20px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);">
+        <h3>Comprehensive Job Skill Description</h3>
+        <p>
+            <strong>Skill Name:</strong> <span id="skill-name">Contract Management</span><br><br>
+            <strong>Description:</strong> <span id="skill-description">
+            Responsible for overseeing the contractual processes, ensuring compliance with terms and conditions, 
+            and resolving disputes. This role involves managing subcontractor payments, preparing tender documents, 
+            and closing contracts upon project completion.
+            </span><br><br>
+            <strong>Key Competencies:</strong> <span id="skill-competencies">
+            - Attention to Detail<br>
+            - Strong Communication Skills<br>
+            - Analytical Thinking<br>
+            - Problem Solving Abilities<br>
+            - Negotiation Skills<br>
+            </span>
+        </p>
+        <button onclick="closeDialog()">Close</button>
+    </dialog>
+
+    <section id="experience"> 
+        <div class="container">
+            <h3>Work Experience</h3>
+            <div class="row">
+                    <div class="text-container">
+                        <ul>
+                            <li>
+                            <h4>2024 to Date:<br> Powerchina Huadong Engineering Corporation Agencia en Chile. María Elena, Chile.</h4>
+                            </li>
+                            <li><strong>Project: </strong> Solar and Wind EPC Contract Tenders.</li>
+                            <li>Position: <a class="position-link" href="#">Cost Engineer</a></li>
+                            <li>I am in charge of unit cost analysis, intergration of costing to planning, 
+                                business plan development including recruitment, machinery, procurement and 
+                                logistics plan.</li>
+                        </ul>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://media.licdn.com/dms/image/D4E22AQGtoPo9fxbhFg/feedshare-shrink_800/0/1709924664534?e=1719446400&v=beta&t=r0FS3V2ACpqVG3AmiuIHvDAokz1wLJ7zmZRYXD1euWg" alt="Job Image">
+                    </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2022 to Date:<br> Powerchina Huadong Engineering Corporation Agencia en Chile. María Elena, Chile.</h4></li>
+                        <li>Position: <a class="position-link" href="#">Subcontractor Manager</a></li>
+                        <li><strong>Project: </strong> Construction of 480MW CEME1 PV Plant Project, 
+                            Substation and 17km Overhead Line (US$ ~400 million).</li>
+                        <li>I am in charge of organizing all subcontractor tenders, managing payments, 
+                            regulating factoring operations, drafting subcontracts and purchase orders, 
+                            coordinating mobilization and acreditation, dealing with 2nd tier workers and 
+                            local suppliers conflicts, handling contractual claims, drafting contract letters 
+                            and terminating/closing subcontracts.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://media.licdn.com/dms/image/D4E22AQFu8Ml2-gzJAA/feedshare-shrink_2048_1536/0/1709392195623?e=1719446400&v=beta&t=_srMmxeOUZZc-fWurtCeNN4sJxZkzK2W3_YWyHkiEtA" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2021:<br> Admiral HR Consulting (for ENEL Green Power). Peine, Chile.</h4></li>
+                        <li>Position: <a class="position-link" href="#">Technical Unit Engineer</a></li>
+                        <li><strong>Project: </strong> Construction of 163 MW Sol de Lila PV Plant, 
+                            Substation and 2km Overhead Line (US$ ~130 million).</li>
+                        <li>I was in charge of analysis of incoming main contractor reports, 
+                            which I used to estimate and report upstream about daily construction cost 
+                            and progress, as of engineering, materials delivery, permitting, quality 
+                            compliance and energization progress.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://www.paiscircular.cl/wp-content/uploads/2022/09/SOL-DE-LILA-2.jpg" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2020:<br> BESALCO Energía Renovable. Chillán, Chile.</h4></li>
+                        <li>Position: <a class="position-link" href="#">Technical Unit Manager</a></li>
+                        <li><strong>Project: </strong> Construction of 154-23kV Pueblo Seco Substation 
+                            and 1km Overhead Line.</li>
+                        <li>I was in charge of developing, executing and reporting progress of 
+                            Construction Plan and Budget, to drive subcontractor tenders, to 
+                            mobilize materials and machinery to construction site, to check 
+                            engineering drawings, to  manage commercial contracts, among others.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://www.ladiscusion.cl/wp-content/uploads/2021/05/image004-1-e1621940718970.jpg" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2019:<br> BESALCO Energía Renovable. Parral, Chile.</h4></li>
+                        <li>Position: <a class="position-link" href="#">Technical Unit Engineer</a></li>
+                        <li><strong>Project: </strong> Construction of 20MW Digua Hydropower Plant, 
+                            Elevator Substation, 7km Overhead Line and Tap-Off Substation (US$ ~24 million).</li>
+                        <li>I was in charge of the execution of construction and business plan, 
+                            managing subcontractor tenders, coordinating mobilization workers, 
+                            materials and machinery to construction site, checking engineering drawings,
+                             managing commercial contracts in accordance to budget and project 
+                             specifications.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://lh3.googleusercontent.com/proxy/fPYAFc6ORSWVfNp6x_YiMD5MRKCJvaBZikFauawRPBgM6KrLQj4RbKDIFkBL2_FOKndikhxSEynuMEsnv7f1xeuc1jrKT7uRCA1UytkcAu0jq3XLdrGglUqJEgpn0j4JR0rbYQ" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2018:<br> SAME S.A. Santiago, Chile.</h4></li>
+                        <li>Position: <a class="position-link" href="#">Development Engineer</a></li>
+                        <li><strong>Projects: </strong>
+                            <ul>
+                                <li>- Conveyor Belt Dock Ventilation System Assessment and Design 
+                                    Optimization for <strong>AngloAmerican</strong>, in Los Pelambres 
+                                    Mineral Concentrate Dock. Los Vilos, Chile.</li>
+                                <li>- Electrowinning Plant Ventilation System Design and 
+                                    Implementation for <strong>BHP Billiton</strong>, Spence and 
+                                    Escondida Mining Projects.</li>
+                                <li>- Dust Control Suppression System for <strong>BHP Billiton</strong>, 
+                                    in Escondida Mine Crushing Plant.</li>
+                            </ul>
+                        </li>
+                        <li>I participated in site secognition visits, problem analysis and modelling, basic solution design, project cost estimation, proposal development, acreditation and mobilization of resources to site, contract management and contract closing.. I was in charge of cost estimation and economic proposal development.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://media.licdn.com/dms/image/C5622AQFg0H1iVVYKdQ/feedshare-shrink_1280/0/1579828613661?e=1719446400&v=beta&t=xrsq9yrq_BqqrQv3wEhLAwa0b8vQa-3_lFILu99DeJk" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2015-2017:<br> AP Construcciones SpA. Santiago, Chile.</h4></li>
+                        <li>Position: <a class="position-link" href="#">Technical Unit Manager</a></li>
+                        <li><strong>Projects: </strong>
+                            <ul>
+                                <li>
+                                    - Construction of Hydropower Plant Intake: Excavation and Civil Works,
+                                     for  <strong>Generadora HidroÑuble</strong>. 
+                                     San Fabián de Alico, Chile. (US$ ~5 million).
+                                </li>
+                                <li>
+                                    - Slope Stabilization in Route-5 Highway near to Angostura Tall
+                                    Construction for <strong>Ferrovial</strong>. Angostura, Chile.
+                                    (US$ ~1 million).
+                                </li>
+                                <li>
+                                    - Excavation and Stabilization of Metro Interconnection Tunnel
+                                     of Metro Franklin for <strong>Ferrovial</strong>. 
+                                     Santiago, Chile (US$ ~2 million).
+                                </li>
+                            </ul>
+                        </li>
+                        <li>I was in charge of business development, engineering review, planning, costing, proposal development, client negotiations, contract review, mobilization and acreditation, construction progress control, payments collection, claim management and contract closing.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNa9lKxP5bNKNfy_SRbBDVcypcuhjJHX_fVdhMhz6XKV9GE__adlCTUDZ5Gy_oyjX90n70Fddu65EkwWkUe96vqh2OncwrSgYLEGBEwWm6n9xoe0gJSkkauGEZJTuj-jZAyqYjXQ79iXFO/s1600/hidro%25C3%25B1uble_debe_replantearse.jpg" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2014:<br> Can-Can Mining Company (COPEC Holding). Petorca, Chile.</h4></li>
+                        <li>Position: <a class="position-link" href="#">Underground Mining Operations Chief</a></li>
+                        <li><strong>Project: </strong> Exploitation of high-grade gold veing mines 
+                            with Back&Fill and Bench&Fill Mining Methods (US$ ~23 million).</li>
+                        <li>
+                            I was responsible of executing short-term underground mining plan, 
+                            supervising drilling, blasting, loading, hauling and dumping of ore
+                             and waste. This experience gave me expertise in managing underground 
+                             mining operations and deeply understanding workers and machinery 
+                             requirements to optimize operations.
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://elamerica.cl/wp-content/uploads/2022/01/mina-can-can-780x470.jpeg" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2013:<br> Consorcio TREPSA-Cerro Alto S.A. Rancagua, Chile</h4></li>
+                        <li><strong>Project: </strong>Presstripping and 1st Exploitation Phase of Rajo Sur copper Mine, El Teniente, CODELCO. (US$ ~130 million).</li>
+                        <li>Position:<a class="position-link" href="#">Technical Office Engineer</a></li>
+                        <li>
+                            Responsible for monitoring physical progress, costs, and machinery 
+                            performance for the Consortium. This project involved the first 
+                            open-pit operations at El Teniente Mine, providing valuable insight 
+                            into CODELCO's operations.
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://media.licdn.com/dms/image/D4E22AQG840Zyg-RouQ/feedshare-shrink_800/0/1714565713188?e=2147483647&v=beta&t=ezODWq_eGeBmkDBrEP3m0hPS2a0IeW6RA-f-s7mrZD0" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2012:<br> <a href="https://www.cemin.com/">CEMIN Mining Holding</a>. Chañaral, Chile</h4></li>
+                        <li><strong>Project: </strong>High-grade narrow-vein gold mining and exploration (US$ ~5 million).</li>
+                        <li>Position:<a class="position-link" href="#">Technical Office Engineer</a></li>
+                        <li>
+                            After SERNAGEOMIN closed the mine due to a severe accident, I was hired to design and implement
+                            a  new Health, Safety, Environment and Operations Management System to reactivate mining operations.
+                              After recovering working permits, I was in charge of gold mines prospection 
+                              , to and mining, in order to produce 12,000 tonnes per month to delivery to
+                              <a href="https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10309">
+                                Falda Verde Cyanidation Plant</a>, a company owned processing plant located in Chañaral Bay.
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://www.sernageomin.cl/wp-content/uploads/2023/09/FOTITO-NEBE.jpg" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2011:<br> Chamuscada Mining Company. Canela Baja, Chile</h4></li>
+                        <li><strong>Project: </strong>High-grade narrow-vein gold mining and mineral (US$ ~2 million).</li>
+                        <li>Position:<a class="position-link" href="#">Technical Office Engineer</a></li>
+                        <li>
+                            I was in charge of managing ENAMI Drilling Exploration Project and, after 
+                            successful discoveries, of permit obtaining, mine reactivation, mining and 
+                            mineral processing to obtain high-grade gold concentrates.
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://www.ing.uc.cl/mineria/wp-content/uploads/2016/04/img_5565.jpg" href="https://www.ing.uc.cl/mineria/novedades/salidas-terreno/2016-2/salida-terreno-minera-chamuscada/" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li><h4>2009-2010:<br>Antolín Cisternas y Cía. S.A. Various locations in Chile</h4></li>
+                        <li>Position:<a class="position-link" href="#">Technical Unit Assistant</a></li>
+                        <li><strong>Projects: </strong>
+                            <ul>
+                                <li>
+                                    - Tunnel stabilization with shotcrete on <a href="https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1735" target="_blank">Carmen and Margarita Mines</a>, 
+                                    for <a href="https://www.guiaminera.cl/minera-las-cenizas/" target="_blank">Minera Las Cenizas</a>. Cabildo, Chile.
+                                </li>
+                                <li>
+                                    - Tunnel excavation and stabilization on Papomono Mine, for <strong>
+                                    Minera Vale</strong>. Illapel, Chile.
+                                </li>
+                                <li>
+                                    - Slope stabilization in Los Pelambres Facilities, for <strong>
+                                    Antofagasta Minerals</strong>. Salamanca, Illapel.
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <a href="https://www.youtube.com/watch?v=1DGpgh_RWFo" target="_blank">
+                        <img src="https://img.youtube.com/vi/1DGpgh_RWFo/hqdefault.jpg" alt="Job Image">
+                    </a>
+                </div>
+            </div>
+            <br>
+
+
+        </div>
+    </section>
+
+    <section id="academics">
+        <div class="container">
+            <h3>Academic Background</h3>
+            
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li>
+                            <h4>2009 to 2011:<br>
+                                <a href="http://admision.userena.cl/media/attachments/2023/09/29/25017_ingenieria_de_minas.pdf">
+                                    Applied Mining Engineer.</a><br>
+                                University of La Serena. Chile.
+                            </h4>
+                        </li>
+                        <li><strong>Highlights: </strong>
+                            Strong formation in mining and metallurgic operations management. 
+                            I received a multidisciplinary formation, aiming to promote holistic
+                             understanding of mining projects development and management skills. 
+                             I did this second stage of studies while working in mining projects near 
+                             to my hometown, providing me valuable insights for my academic 
+                             and professional career.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://www.campografia.cl/wp-content/uploads/2016/06/20140528-El-Brillador_0035-Medium.jpg" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li>
+                            <h4>2004 to 2007:<br>
+                                <a href="http://admision.userena.cl/media/attachments/2023/09/27/25005_ingenieria_civil_ambiental1.pdf">
+                                    Environmental Civil Engineer</a><br>
+                                University of La Serena. Chile. (Uncompleted)
+                            </h4>
+                        </li>
+                        <li><strong>Highlights: </strong>
+                            8 semesters successfully completed. Strong formation in advanced mathematics, physics, statistics, economics and earth sciences. Most classes I coursed here were
+                             homologated in my definitive Mining Engineer pregrade studies.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://lh6.googleusercontent.com/proxy/nAiBFqHvoqfPW7StHcLhCvc4V0HnykjbTYdDrslPmA3vEqCeSNIo5h4ECkH_JladanT-qgTVz6Xa7igo_utAOaWJtqvcimHj53wfFCP-8VYtAcy2uW6imwS-zwSdWb8NR-TB4FiPfrTteD0gDxOi2HLH_Vwy3ptAjIZAsurq2w" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <h3>Complementary Formation</h3>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li>
+                            <h4>2016-2017<br>
+                            <a href="https://www.research-in-germany.org/energinno/recent-campaigns/innomine-chile0.html">
+                                Innomine Chile - Research in Germany Programme</a><br>
+                            DaaD - Fraunhofer Institute of Advanced Research
+                            </h4>
+                        </li>
+
+                        
+
+                        <li>
+                            <strong>Highlights: </strong><br>
+                            Among with other 24 advanced researchers and cutting-edge 
+                            technology developers, we develop joint applied research project with collaborators
+                            Germany. After sharing results, we arrange a tour to to visit 13 Fraunhfer 
+                            Research Centres met in person, exchange ideas and create stronger alliances 
+                            to develop innovative mining technologies with Germany Researchers Support. 
+                            I was selected for my pregrade research developments enhancing leaching of 
+                            copper-gold bearing ores using cyanide solutions and hydrogen peroxide, with
+                            satisfactory results.
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://media.licdn.com/dms/image/C5622AQG30JOV4051aw/feedshare-shrink_2048_1536/0/1579148879606?e=1719446400&v=beta&t=KnSoDC8U0VEDzJQBZb8qdcZa1rn-EfFFS-FuRUaBWdE" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li>
+                            <h4>2016 to 2017:<br>
+                            Data Science and Machine Learning: <br>Making Data-Driven Decisions,<br> 
+                            <a href="https://idss-gl.mit.edu/mit-idss-data-science-machine-learning-program?&utm_source=Google&utm_medium=search&utm_campaign=DSML_Int_LAC_Generic_Phrase&campaign_id=20775422364&adgroup_id=154964109359&ad_id=681046636693&utm_target=kwd-27111326778&Keyword=data%20science%20course&placement=&gad_source=1&gclid=CjwKCAjwr7ayBhAPEiwA6EIGxIsWIerXx3zbSQW7IR9qFIGrL9xPLDrcrI55GS040YLjRRcG4m8EJRoCUwcQAvD_BwE">MIT Schwartman Collegue of Computing</a>.
+                            </h4>
+                        </li>
+                        <li><strong>Highlights: </strong>
+                            6 months course focuses on Big-Data Processing, Advanced Statistical 
+                            Analysis, Machine Learning Methods and Artificial Intelligence applications 
+                            like Computer Vision and Generative AI.</li>
+                        <li>Can be verified here <a href="https://verify.mygreatlearning.com/verify/HAZXISXQ">https://verify.mygreatlearning.com/verify/HAZXISXQ</a></li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://d9jmtjs5r4cgq.cloudfront.net/CertificateAndTranscript/92321/original/ZERY_C3_A1N_GUERRA_certificate20230905-582-44ifqq.jpg" alt="Job Image">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li>
+                        <h4>
+                            2010.08 to 2010.10<br>
+                            2nd Summer School for Mining Engineer.<br> 
+                            <a href="https://www.agh.edu.pl/en">Akademia Gornizco Hurnitza</a><br>
+                            a.k.a. University of Mining and Metallurgy. Krakow, Poland.
+                        </h4>
+                        </li>
+                        <li><strong>Highlights: </strong>
+                            For my good academic performance and advances english level, I received this internation scholarship to travel to
+                            Krakow to participate in a 3 weeks field course, in which we had intersting lectures and laboratory sessions about coal, 
+                            salt, quarry and base metals mining in Poland, among with field visits to 5 operative mines.
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://study.gov.pl/sites/default/files/styles/wiz/public/foto_ucz_wiz/1/id_139_4.jpg?itok=Zj6Orch-" alt="Job Image">
+                </div>
+            </div>
+            <br>
+             
+            <div class="row">
+                <div class="text-container">
+                    <ul>
+                        <li>
+                        <h4>
+                            2010.03 to 2010.06<br>
+                            Applied Geochemistry for Environmental Impact Assesment and Mineral Exploration.<br>
+                            University of Castilla-La Mancha (Spain) & University of La Serena (Chile).
+                        </h4>
+                        </li>
+                        <li><strong>Highlights: </strong>
+                            During this 3-months Field Course, we learn how to design and execute 
+                            sammpling campaigns and how to use Kriging Method to unveil hidden patterns 
+                            on stream sediments in Coquimbo Region. We discovered that concentrations 
+                            of heavy metals like copper, zinc and arsenium are not driven by mining 
+                            activity in the area, but controlled by geological formations rich in 
+                            those metals. Main mining projects in the region are located in these 
+                            geologically interesting areas, resulting in a false causality between 
+                            mining activity and heavy metals concentrations in soil and surface waters.</li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00254-007-0643-8/MediaObjects/254_2007_643_Fig4_HTML.gif" alt="Job Image">
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+
+<footer style="background: #35495E; color: white; padding: 2rem 0; text-align: center; font-size: 0.9rem; margin-top: 2rem;">
+    <div class="container">
+        <p style="margin: 0; margin-top: 0.5rem;">
+            © 2023 Zeryán Guerra. All rights reserved.
+            <a href="https://www.linkedin.com/in/zeryan/" style="color: #3498db; text-decoration: none;" target="_blank">LinkedIn</a> |
+            <a href="mailto:zeryan.guerra@gmail.com" style="color: #3498db; text-decoration: none;">Email</a> |
+            <a href="https://github.com/zeryan" style="color: #3498db; text-decoration: none;" target="_blank">GitHub</a>
+        </p>
+    </div>
+</footer>
+
+<script>
+        function showPopup(popupId) {
+            const dialog = document.getElementById('dialog');
+            const overlay = document.getElementById('popup-overlay');
+
+            const idsAndDescriptions = {
+                'popup1': {
+                    name: 'Contract Management',
+                    description: `Responsible for overseeing the contractual processes, ensuring compliance with terms and conditions,
+                    and resolving disputes. This role involves reviewing available civil, mechanical and electric engineering, 
+                    preparing tender documents, negotiating subcontract terms, coordinating mobilization, follow-up construction progress, managing subcontractor payments,
+                    analysis of claims, drafting contract letters, solving subcontractor workers and local suppliers debts, closing contracts upon project completion or managing advance termination due to contract breach.`,
+                    competencies: `<br>- Attention to Detail<br>
+                    - Strong Communication Skills<br>
+                    - Analytical Thinking<br>
+                    - Problem-Solving Abilities<br>
+                    - Negotiation Skills<br>`
+                },
+                'popup2': {
+                    name: 'Cost Control',
+                    description: `Strong understanding of project cost estimation, budgeting, and control techniques. Expertise in analyzing
+                    contractor reports to estimate daily construction costs and progress. This skill involves monitoring and managing
+                    the project's financial health to ensure it stays within the allocated budget.`,
+                    competencies: `<br>- Budgeting<br>
+                    - Financial Analysis<br>
+                    - Cost Estimation<br>
+                    - Activity-Based Costing (ABC)<br>
+                    - 4D Planning Method<br>
+                    - Reporting and Monitoring<br>
+                    - Attention to Detail<br>
+                    - Analytical Thinking<br>`
+                },
+                'popup3': {
+                    name: 'Technical Expertise',
+                    description: `In-depth knowledge of underground mining and construction projects, including mining and construction methods,
+                    equipment, and safety procedures.`,
+                    competencies: `<br>- Underground Mining Methods<br>
+                    - Construction Methods<br>
+                    - Safety Procedures<br>
+                    - Equipment Management<br>
+                    - Project Planning<br>`
+                },
+                'popup4': {
+                    name: 'Data Analysis',
+                    description: `Proficient in data analysis and reporting using Python and MS Excel, utilizing data to track project progress, identify trends, and make informed decisions.`,
+                    competencies: `<br>- Python<br>
+                    - MS Excel<br>
+                    - Data Tracking<br>
+                    - Trend Analysis<br>
+                    - Decision-Making<br>`
+                },
+                'popup5': {
+                    name: 'Conflict Management',
+                    description: `I have successfully resolved most conflicts with discontented local and foreign workers before escalating to the Labour Inspectorate, ensuring minimum disruptions and damages during project execution. My effective conflict resolution strategies foster a harmonious work environment and promote team cohesion.
+                    <br><br>
+                    Additionally, I have a proven track record in defending company interests by resolving numerous commercial conflicts with subcontractors over claims of unfair payments or defective works. No blockade or general halt events were reported during project execution, which is an impressive Key Performance Indicator (KPI) in a highly conflictive business ecosystem.`,
+                    competencies: `<br>- Mediation and Negotiation<br>
+                    - Dispute Resolution<br>
+                    - Stakeholder Management<br>
+                    - Effective Communication<br>
+                    - Problem-Solving Skills<br>
+                    - Risk Management<br>`
+                },
+                'popup6': {
+                    name: 'Communication and Leadership',
+                    description: `Excellent communication and interpersonal skills, with proven ability to lead and motivate teams. Fluent in English
+                    (TOEFLS: 100/120, 2021) and Spanish.`,
+                    competencies: `<br>- Communication Skills<br>
+                    - Interpersonal Skills<br>
+                    - Team Leadership<br>
+                    - Motivational Techniques<br>
+                    - Multilingual Proficiency<br>`
+                }
+            };
+            
+            const { name, description, competencies } = idsAndDescriptions[popupId];
+            document.getElementById('skill-name').innerText = name;
+            document.getElementById('skill-description').innerHTML = description;
+            document.getElementById('skill-competencies').innerHTML = competencies;
+
+            dialog.showModal();
+            overlay.style.display = 'block';
+        }
+
+        function closeDialog() {
+            const dialog = document.getElementById('dialog');
+            const overlay = document.getElementById('popup-overlay');
+            dialog.close();
+            overlay.style.display = 'none';
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const dialog = document.getElementById('dialog');
+            const overlay = document.createElement('div');
+            overlay.id = 'popup-overlay';
+            document.body.appendChild(overlay);
+
+            if (!dialog.showModal) {
+                dialogPolyfill.registerDialog(dialog);
+            }
+
+            overlay.addEventListener('click', closeDialog);
+        });
+    </script>
+    <script src="path-to-dialog-polyfill/dialog-polyfill.js"></script>
+
+</body>
+</html>
