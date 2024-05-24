@@ -6,10 +6,17 @@
 - Phone: [+569 5460 7132](tel:+56954607132)
 - Email: [zeryan.guerra@gmail.com](mailto:zeryan.guerra@gmail.com)
 - Location: La Serena, Chile (Available to move to any national or international location)
+
+-------------------------------------------------------------------------------------------------------
+### Actions
+- [Print PDF](javascript:window.print())
+- [See PDF Online](https://github.com/zeryan/jobresume/blob/main/Zery%C3%A1n%20Guerra%20-%20Mining%20Operations%20Engineer.pdf)
+
 -------------------------------------------------------------------------------------------------------
 ### Summary
 
 Experienced Mining Engineer with 10+ years in project development and management across various industries, including mining, construction, and renewable energy. Proven ability to manage large-scale projects (US$150M/year) on time and within budget using data-driven approaches. Passionate about leveraging technology like AI and computer vision for project optimization. Seeking a challenging role in underground mining or power plant construction to contribute to project success and business growth through operational excellence and cutting-edge technology implementation.
+
 -------------------------------------------------------------------------------------------------------
 ### Skills
 
@@ -35,6 +42,7 @@ My Team: Remote supervision on 1 engineer in Colombia, 3 jr. engineers in Chile.
 As part of the Business Development Team, I am conducting unit cost analyses, aligning them with strategic planning, and developing business proposals for tenders in Chile and [Colombia](https://en.powerchina.cn/2023-02/02/c_828236.htm). My responsibilities encompass overseeing recruitment, machinery, procurement, and logistics, ensuring they align with market trends and our long-term objectives.
 
 ![PowerChina - Cost Engineer](https://media.licdn.com/dms/image/D4E22AQGtoPo9fxbhFg/feedshare-shrink_800/0/1709924664534?e=1719446400&v=beta&t=r0FS3V2ACpqVG3AmiuIHvDAokz1wLJ7zmZRYXD1euWg)  
+
 -------------------------------------------------------------------------------------------------------
 **Subcontractor Manager**  
 _Period:_ 2022.03 to Date  
@@ -103,6 +111,7 @@ Projects:
 - Engineering service for Molybdenum Blast Furnace Gases Control System for **Molyb - CODELCO**.
 
 ![SAME - Business Development Engineer](https://media.licdn.com/dms/image/C5622AQFg0H1iVVYKdQ/feedshare-shrink_1280/0/1579828613661?e=1719446400&v=beta&t=xrsq9yrq_BqqrQv3wEhLAwa0b8vQa-3_lFILu99DeJk)  
+
 -------------------------------------------------------------------------------------------------------
 #### AP Constructiones SpA.
 
@@ -116,6 +125,7 @@ _Period:_ 2015.03 to 2017.07
 Managed business development, planning, costing, client negotiations, contract reviews, project mobilization, progress monitoring, payment collection, claims, and project closures.
 
 ![AP - Project Manager](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNa9lKxP5bNKNfy_SRbBDVcypcuhjJHX_fVdhMhz6XKV9GE__adlCTUDZ5Gy_oyjX90n70Fddu65EkwWkUe96vqh2OncwrSgYLEGBEwWm6n9xoe0gJSkkauGEZJTuj-jZAyqYjXQ79iXFO/s1600/hidro%25C3%25B1uble_debe_replantearse.jpg)  
+
 -------------------------------------------------------------------------------------------------------
 #### Can-Can Mining Company (COPEC Mining Subsidiary)
 
@@ -129,6 +139,7 @@ _Location:_ Petorca, Región de Valparaíso. Chile.
 In my pivotal operations role, I supervised all underground mining operations to meet a daily production goal of approximately 2,500 tonnes of high-grade gold ore. I oversaw drilling, blasting, loading, hauling, and unloading of ore and waste. Extensive expertise in managing underground mining operations, optimizing operational efficiency, and ensuring successful achievement of production targets.
 
 ![Can-Can Chief of Mines](https://elamerica.cl/wp-content/uploads/2022/01/mina-can-can-780x470.jpeg)  
+
 -------------------------------------------------------------------------------------------------------
 
 #### Trepsa - CerroAlto Consortium
@@ -153,6 +164,7 @@ _Period:_ 2011.12 to 2012.12
 Reactivated mining operations after the mine was closed due to a severe accident. Designed and implemented a comprehensive Health, Safety, Environment, and Operations Management System to resume mining activities. Achieved a production target of 12,000 tonnes per month from 5 different mines, delivering to the Falda Verde Cyanidation Plant.
 
 ![CEMIN Chief of Mines](https://www.sernageomin.cl/wp-content/uploads/2023/09/FOTITO-NEBE.jpg)  
+
 -------------------------------------------------------------------------------------------------------
 #### Chamuscada Mining Company
 **Technical Unit Engineer**  
@@ -163,6 +175,7 @@ _Period:_ 2010.04 to 2011.06
 Managed the ENAMI Drilling Exploration Project, permit acquisition, mine reactivation, and high-grade gold concentrate production through mineral processing.
 
 ![Chamuscada Technical Unit Engineer](https://www.ing.uc.cl/mineria/wp-content/uploads/2016/04/img_5565.jpg)  
+
 -------------------------------------------------------------------------------------------------------
 #### Antolín Cisternas and Company S.A.
 
@@ -176,6 +189,7 @@ _Period:_ 2009.02 to 2010.03
 Analyzed machinery and work reports, managed costs, monitored progress, processed payments, resolved contractual disputes, cost estimation, general planning, and contract management.
 
 ![Antolín Cisternas Project](https://img.youtube.com/vi/1DGpgh_RWFo/hqdefault.jpg)
+
 -------------------------------------------------------------------------------------------------------
 ### Graduate Studies
 
@@ -187,6 +201,7 @@ _Period:_ 2009.03 to 2011.12
 Strong foundation in mining and metallurgical operations management, multidisciplinary education promoting holistic understanding of mining project development and management skills.
 
 ![ULS Mining Engineering](https://www.campografia.cl/wp-content/uploads/2016/06/20140528-El-Brillador_0035-Medium.jpg)
+
 -------------------------------------------------------------------------------------------------------
 
 ### Academic Background
@@ -198,6 +213,7 @@ _Period:_ 2023.03 to 2023.08
 Explored Big Data Processing, Advanced Statistical Analysis, and Machine Learning Methods. Applications included PV fault detection, HSE machine learning protocols, and industry-specific use cases.
 
 ![MIT DS](https://d9jmtjs5r4cgq.cloudfront.net/CertificateAndTranscript/92321/original/ZERY_C3_A1N_GUERRA_certificate20230905-582-44ifqq.jpg)
+
 -------------------------------------------------------------------------------------------------------
 
 **Innomine Chile - Research in Germany Programme**  
@@ -208,6 +224,7 @@ _Period:_ 2016.03 to 2017.07
 Joint applied research project with German collaborators, enhancing the leaching of copper-gold bearing ores using cyanide solutions and hydrogen peroxide.
 
 ![Innomine](https://media.licdn.com/dms/image/C5622AQG30JOV4051aw/feedshare-shrink_2048_1536/0/1579148879606?e=1719446400&v=beta&t=KnSoDC8U0VEDzJQBZb8qdcZa1rn-EfFFS-FuRUaBWdE)
+
 -------------------------------------------------------------------------------------------------------
 
 **2nd International Summer School for Mining Engineers**  
@@ -218,6 +235,7 @@ _Period:_ 2010.07 to 2010.09
 Awarded an international scholarship for exceptional academic performance. Participated in lectures, laboratory sessions, and field visits to operational mines in Poland.
 
 ![AGH](https://study.gov.pl/sites/default/files/styles/wiz/public/foto_ucz_wiz/1/id_139_4.jpg?itok=Zj6Orch-)
+
 -------------------------------------------------------------------------------------------------------  
 
 **Applied Geochemistry for Environmental Impact Assessment and Mineral Exploration**  
