@@ -1,17 +1,16 @@
 # Zeryán Guerra
-
 ## Mining Operations Engineer
-
+-------------------------------------------------------------------------------------------------------
 ### Contact
 
 - Phone: [+569 5460 7132](tel:+56954607132)
 - Email: [zeryan.guerra@gmail.com](mailto:zeryan.guerra@gmail.com)
 - Location: La Serena, Chile (Available to move to any national or international location)
-
+-------------------------------------------------------------------------------------------------------
 ### Summary
 
 Experienced Mining Engineer with 10+ years in project development and management across various industries, including mining, construction, and renewable energy. Proven ability to manage large-scale projects (US$150M/year) on time and within budget using data-driven approaches. Passionate about leveraging technology like AI and computer vision for project optimization. Seeking a challenging role in underground mining or power plant construction to contribute to project success and business growth through operational excellence and cutting-edge technology implementation.
-
+-------------------------------------------------------------------------------------------------------
 ### Skills
 
 - **Contract Management:** Extensive experience in tender management, subcontractor payment management, dispute resolution, and contract closing.
@@ -21,7 +20,7 @@ Experienced Mining Engineer with 10+ years in project development and management
 - **Technology Integration:** Actively exploring and implementing cutting-edge technologies like generative AI and computer vision to enhance project management processes.
 - **Communication and Leadership:** Excellent communication and interpersonal skills, with proven ability to lead and motivate teams.
 - Advanced English level. Used to work with English as the first language. **TOEFL 100/120** (reading:29; listening:24; speaking:23; writing:24. Taken on 2020.03)
-
+-------------------------------------------------------------------------------------------------------
 ### Work Experience
 
 #### Powerchina Huadong Engineering Corporation Agencia en Chile
@@ -36,7 +35,7 @@ My Team: Remote supervision on 1 engineer in Colombia, 3 jr. engineers in Chile.
 As part of the Business Development Team, I am conducting unit cost analyses, aligning them with strategic planning, and developing business proposals for tenders in Chile and [Colombia](https://en.powerchina.cn/2023-02/02/c_828236.htm). My responsibilities encompass overseeing recruitment, machinery, procurement, and logistics, ensuring they align with market trends and our long-term objectives.
 
 ![PowerChina - Cost Engineer](https://media.licdn.com/dms/image/D4E22AQGtoPo9fxbhFg/feedshare-shrink_800/0/1709924664534?e=1719446400&v=beta&t=r0FS3V2ACpqVG3AmiuIHvDAokz1wLJ7zmZRYXD1euWg)  
-
+-------------------------------------------------------------------------------------------------------
 **Subcontractor Manager**  
 _Period:_ 2022.03 to Date  
 
