@@ -16,6 +16,11 @@
             text-align: justify;
         }
 
+        /* Reduce paragraph spacing */
+        p {
+            margin-bottom: 1.25rem; /* Adjust this value as needed */
+        }
+
         header {
             position: relative;
             color: white;
@@ -61,7 +66,7 @@
         .lead {
             font-size: 1rem;
             margin-bottom: 2rem;
-            text-align: left;
+            text-align: justify;
         }
 
         a {
@@ -92,11 +97,11 @@
         }
 
         .text-container {
-            width: 75%;
+            width: 70%;
             display: inline-flex;
             flex-direction: column;
             align-items: flex-start;
-            text-align: left;
+            text-align: justify;
         }
 
         .row {
@@ -105,7 +110,7 @@
         }
 
         .image-container {
-            width: 25%;
+            width: 30%;
             overflow: hidden;
             margin-left: 20px;
             display: flex;
@@ -156,6 +161,17 @@
         .skill-link:hover {
             color: #2980b9;
         }
+
+        table {
+            border-collapse: collapse;
+            margin-bottom: 0.5rem;
+        }
+
+        table td {
+            padding: 0.2rem 0.5rem;
+            vertical-align: top;
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
@@ -186,48 +202,37 @@
         <div class="container">
             <h3>Skills</h3>
             <div class="row">
-                <div class="text-container">
+                <div>
                     <ul>
                         <li>
-                            <strong>
-                                <a class="skill-link" href="#" onclick="showPopup('popup1')">Contract Management:</a>
-                            </strong> 
+                            <a class="skill-link" href="#" onclick="showPopup('popup1')">Contract Management:</a>
                             Extensive experience in tender management, subcontractor payment management, dispute resolution, and contract closing.
                         </li>
                         <li>
-                            <strong>
-                                <a class="skill-link" href="#" onclick="showPopup('popup2')">Cost Control:</a>
-                            </strong>
+                            <a class="skill-link" href="#" onclick="showPopup('popup2')">Cost Control:</a>
                             Strong understanding of project cost estimation, budgeting, and control techniques. Expertise in analyzing contractor reports to estimate daily construction costs and progress.
                         </li>
                         <li>
-                            <strong>
-                                <a class="skill-link" href="#" onclick="showPopup('popup3')">Technical Expertise:</a>
+                            <a class="skill-link" href="#" onclick="showPopup('popup3')">Technical Expertise:</a>
                             </strong> 
                             In-depth knowledge of underground mining and construction projects, including mining and construction methods, equipment, and safety procedures.
                         </li>
                         <li>
-                            <strong>
-                                <a class="skill-link" href="#" onclick="showPopup('popup4')">Data Analysis:</a>
-                            </strong> 
+                            <a class="skill-link" href="#" onclick="showPopup('popup4')">Data Analysis:</a>
                             Proficient in data analysis and reporting using Python and MS Excel, utilizing data to track project progress, identify trends, and make informed decisions.
                         </li>
                         <li>
-                            <strong>
                                 <a class="skill-link" href="#" onclick="showPopup('popup5')">Technology Integration:</a>
-                            </strong>
                             Actively exploring and implementing cutting-edge technologies like generative AI and computer vision to enhance project management processes.
                         </li>
                         <li>
-                            <strong>
                                 <a class="skill-link" href="#" onclick="showPopup('popup6')">Communication and Leadership:</a>
-                            </strong>
-                            Excellent communication and interpersonal skills, with proven ability to lead and motivate teams. Fluent in English (TOEFLS: 100/120, 2021) and Spanish.
+                            Excellent communication and interpersonal skills, with proven ability to lead and motivate teams.
+                        </li>
+                        <li>
+                            Advanced english level. Used to work with english as first language. <strong>TOEFLS 100/120</strong> (reading:29; listening:24; speaking:23; writing:24. Taken on 2020.03)
                         </li>
                     </ul>
-                </div>
-                <div class="image-container">
-                    <img src="https://media.licdn.com/dms/image/D4E22AQE69Tcn1Yw1IQ/feedshare-shrink_2048_1536/0/1715900213546?e=1719446400&v=beta&t=1BZNHqOVDaHLfSGIHIrHRwF_CuCrTwdLGzw0TN0JyPk" alt="Job Image">
                 </div>
             </div>
         </div>
@@ -256,268 +261,564 @@
     <section id="experience"> 
         <div class="container">
             <h3>Work Experience</h3>
-            <div class="row">
-                    <div class="text-container">
-                        <ul>
-                            <li>
-                            <h4>2024 to Date:<br> Powerchina Huadong Engineering Corporation Agencia en Chile. María Elena, Chile.</h4>
-                            </li>
-                            <li><strong>Project: </strong> Solar and Wind EPC Contract Tenders.</li>
-                            <li>Position: <a class="position-link" href="#">Cost Engineer</a></li>
-                            <li>I am in charge of unit cost analysis, intergration of costing to planning, 
-                                business plan development including recruitment, machinery, procurement and 
-                                logistics plan.</li>
-                        </ul>
+            <div class="row" id="pc-cost-engineer">
+                    <div class="text-container" >
+                        <table>
+                        <tbody>
+                            <tr>
+                                <td>Period:</td>
+                                <td>2024.01 to Date</td>
+                            </tr>
+                            <tr>
+                                <td>Position:</td>
+                                <td><a class="position-link">Cost Engineer</a></td>
+                            </tr>
+                            <tr>
+                                <td>Company:</td>
+                                <td><strong>Powerchina</strong> Huadong Engineering Corporation Agencia en Chile.</td>
+                            </tr>
+                            <tr>
+                                <td>Project:</td>
+                                <td>Various PV Construction Projects</td>
+                            </tr>
+                            <tr>
+                                <td>Location:</td>
+                                <td>Chile and Colombia</td>
+                            </tr>
+                            <tr>
+                                <td>My Team:</td>
+                                <td>Remote supervision on 1 engineer in Colombia, 3 jr. engineers in Chile.</td>
+                            </tr>
+                            <tr>
+                                <td>Description:</td>
+                                <td>
+                                    As part of Business Development Team, 
+                                    I am conducting unit cost analyses, aligning 
+                                    them with strategic planning, and developing business proposals for 
+                                    tenders in Chile and <a href="https://en.powerchina.cn/2023-02/02/c_828236.htm" target="_blank">Colombia</a>. My responsibilities encompass 
+                                    overseeing recruitment, machinery, procurement, and logistics, 
+                                    ensuring they align with market trends and our long-term objectives.
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
                     </div>
                     <div class="image-container">
-                        <img src="https://media.licdn.com/dms/image/D4E22AQGtoPo9fxbhFg/feedshare-shrink_800/0/1709924664534?e=1719446400&v=beta&t=r0FS3V2ACpqVG3AmiuIHvDAokz1wLJ7zmZRYXD1euWg" alt="Job Image">
+                        <img src="https://media.licdn.com/dms/image/D4E22AQGtoPo9fxbhFg/feedshare-shrink_800/0/1709924664534?e=1719446400&v=beta&t=r0FS3V2ACpqVG3AmiuIHvDAokz1wLJ7zmZRYXD1euWg" alt="PowerChina - Cost Engineer">
                     </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2022 to Date:<br> Powerchina Huadong Engineering Corporation Agencia en Chile. María Elena, Chile.</h4></li>
-                        <li>Position: <a class="position-link" href="#">Subcontractor Manager</a></li>
-                        <li><strong>Project: </strong> Construction of 480MW CEME1 PV Plant Project, 
-                            Substation and 17km Overhead Line (US$ ~400 million).</li>
-                        <li>I am in charge of organizing all subcontractor tenders, managing payments, 
-                            regulating factoring operations, drafting subcontracts and purchase orders, 
-                            coordinating mobilization and acreditation, dealing with 2nd tier workers and 
-                            local suppliers conflicts, handling contractual claims, drafting contract letters 
-                            and terminating/closing subcontracts.</li>
-                    </ul>
+            <div class="row" id="pc-subcontractor-manager">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2022.03 to Date</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Subcontractor Manager</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>Powerchina</strong> Huadong Engineering Corporation, Agencia en Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Project:</td>
+                            <td>480MW <a href="https://en.powerchina.cn/2024-03/20/c_828676.htm" target="_blank">CEME1 PV Plant</a>, Substation and 9,2km OHL Construction Project</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>María Elena, Región de Antofagasta. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>~ US$ 380 millions</td>
+                        </tr>
+                        <tr>
+                            <td>My Team:</td>
+                            <td>8 administratives, 3 engineers and 1 lawyer, 
+                                overseeing up to 81 subcontracts, 380 supply contracts and 1200 subcontracted workers on site at peak, 
+                                totalizing more than 3000 historically acredited workers along 2 years.</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>I oversee the work of Subcontractors all along the Project, ensuring they fulfill 
+                                their contractual obligations and that the Contractor meets 
+                                its subcontracting duties. My responsibilities include selecting 
+                                approved Subcontractors, obtaining Owner's consent, and acting as
+                                 the main contact for Subcontractor issues. I manage, supervise, 
+                                 and pay Subcontractors, ensuring their work and equipment adhere 
+                                 to the Contract and HSE standards. Additionally, I handle contractual
+                                  claims, draft correspondence, and manage subcontract terminations 
+                                  and closures. Currently <strong> Delivering to Client</strong></td>
+                        </tr>
+
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://media.licdn.com/dms/image/D4E22AQFu8Ml2-gzJAA/feedshare-shrink_2048_1536/0/1709392195623?e=1719446400&v=beta&t=_srMmxeOUZZc-fWurtCeNN4sJxZkzK2W3_YWyHkiEtA" alt="Job Image">
+                    <img src="https://media.licdn.com/dms/image/D4E22AQFu8Ml2-gzJAA/feedshare-shrink_2048_1536/0/1709392195623?e=1719446400&v=beta&t=_srMmxeOUZZc-fWurtCeNN4sJxZkzK2W3_YWyHkiEtA" alt="PowerChina - Subcontractor Manager">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2021:<br> Admiral HR Consulting (for ENEL Green Power). Peine, Chile.</h4></li>
-                        <li>Position: <a class="position-link" href="#">Technical Unit Engineer</a></li>
-                        <li><strong>Project: </strong> Construction of 163 MW Sol de Lila PV Plant, 
-                            Substation and 2km Overhead Line (US$ ~130 million).</li>
-                        <li>I was in charge of analysis of incoming main contractor reports, 
-                            which I used to estimate and report upstream about daily construction cost 
-                            and progress, as of engineering, materials delivery, permitting, quality 
-                            compliance and energization progress.</li>
-                    </ul>
+            <div class="row" id="admiral-site-support-engineer">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2021.09 to 2022.02</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Site Support Engineer</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>Admiral</strong> HR Consulting (by ENEL Green Power)</td>
+                        </tr>
+                        <tr>
+                            <td>Project:</td>
+                            <td>161MW <a href="https://www.enel.cl/es/conoce-enel/nuestras-centrales/planta-sol-de-lila.html" target="_blank">Sol de Lila</a> PV Plant, Substation and 4km Overhead Line Construction</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Peine, Región de Antofagasta. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>~US$ 130 millions</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>I was in charge of analysis of incoming main contractor reports, 
+                                which I used to estimate and report upstream about daily construction cost 
+                                and progress, as of engineering, materials delivery, permitting, quality 
+                                compliance and energization progress. In practice, my tasks were a mixture 
+                                of data engineering and contract management.</td>
+                        </tr>
+                        
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://www.paiscircular.cl/wp-content/uploads/2022/09/SOL-DE-LILA-2.jpg" alt="Job Image">
+                    <img src="https://www.paiscircular.cl/wp-content/uploads/2022/09/SOL-DE-LILA-2.jpg" alt="Admiral. Site Support Engineer">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2020:<br> BESALCO Energía Renovable. Chillán, Chile.</h4></li>
-                        <li>Position: <a class="position-link" href="#">Technical Unit Manager</a></li>
-                        <li><strong>Project: </strong> Construction of 154-23kV Pueblo Seco Substation 
-                            and 1km Overhead Line.</li>
-                        <li>I was in charge of developing, executing and reporting progress of 
-                            Construction Plan and Budget, to drive subcontractor tenders, to 
-                            mobilize materials and machinery to construction site, to check 
-                            engineering drawings, to  manage commercial contracts, among others.</li>
-                    </ul>
+            <div class="row" id="besalco-technical-unit-manager">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2021.03 to 2021.08</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Technical Unit Manager</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>BESALCO Energía</strong> Renovable S.A.</td>
+                        </tr>
+                        <tr>
+                            <td>Project:</td>
+                            <td>154/23kV <a href="https://www.cne.cl/archivos_bajar/Res_Ex_CNE_745_2018.pdf" target="_blank">Pueblo Seco Substation</a> and 2km Overhead Line Construction</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Pueblo Seco (Chillán), Región de Ñuble. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>~US$ 4 million</td>
+                        </tr>
+                        <tr>
+                            <td>My Team:</td>
+                            <td>2 engineers, 4 administratives</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>Starting COVID19 period, I assumed as Technical Unit Manager during 
+                                the civil and mechanical construction phases of the Pueblo Seco 
+                                Substation, I held a multifaceted leadership role envisaging, strategic development, 
+                                collaboration with supervision and quality control, and comprehensive 
+                                progress reporting of the Construction Plan and Budget. I spearheaded 
+                                the subcontractor tender process, ensuring the selection of proficient 
+                                partners to meet project milestones. I adeptly managed commercial 
+                                contracts, overseeing negotiations, and maintaining robust relationships 
+                                with vendors and stakeholders to facilitate smooth project delivery.</td>
+                        </tr>
+
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://www.ladiscusion.cl/wp-content/uploads/2021/05/image004-1-e1621940718970.jpg" alt="Job Image">
+                    <img src="https://www.ladiscusion.cl/wp-content/uploads/2021/05/image004-1-e1621940718970.jpg" alt="Besalco - Technical Unit Manager">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2019:<br> BESALCO Energía Renovable. Parral, Chile.</h4></li>
-                        <li>Position: <a class="position-link" href="#">Technical Unit Engineer</a></li>
-                        <li><strong>Project: </strong> Construction of 20MW Digua Hydropower Plant, 
-                            Elevator Substation, 7km Overhead Line and Tap-Off Substation (US$ ~24 million).</li>
-                        <li>I was in charge of the execution of construction and business plan, 
-                            managing subcontractor tenders, coordinating mobilization workers, 
-                            materials and machinery to construction site, checking engineering drawings,
-                             managing commercial contracts in accordance to budget and project 
-                             specifications.</li>
-                    </ul>
+            <div class="row" id="besalco-technical-unit-engineer">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2019.03 to 2021.02</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Technical Unit Engineer</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>BESALCO Energía</strong> Renovable S.A.</td>
+                        </tr>
+                        <tr>
+                            <td>Project:</td>
+                            <td>20MW <a href="https://seia.sea.gob.cl/expediente/ficha/fichaPrincipal.php?id_expediente=2131476196" target="_blank" rel="noopener">Digua Dam Hydropower Plant</a></td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Parral, Región de Ñuble. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>~$US$ 24 millions</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                In my role, I managed the execution of construction and business plans, 
+                                from selecting subcontractors to mobilizing resources and verifying 
+                                engineering drawings for technical compliance. I also handled commercial 
+                                contracts, ensuring budget adherence and project specifications. Starting 
+                                with the manual excavation in March 2019, I transformed the Digua Dam from 
+                                an old farming infrastructure into a 20MW power plant. This involved channeling 
+                                pressurized water through a 500m tunnel to 10MW Francis Turbines and installing 
+                                valves to manage water pressure and protect existing structures.
+                            </td>
+                        </tr>
+
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://lh3.googleusercontent.com/proxy/fPYAFc6ORSWVfNp6x_YiMD5MRKCJvaBZikFauawRPBgM6KrLQj4RbKDIFkBL2_FOKndikhxSEynuMEsnv7f1xeuc1jrKT7uRCA1UytkcAu0jq3XLdrGglUqJEgpn0j4JR0rbYQ" alt="Job Image">
+                    <img src="http://www.besalcoenergia.cl/wp-content/uploads/2021/03/Digua-2-1024x768.jpg" alt="Besalco - Technical Unit Engineer">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2018:<br> SAME S.A. Santiago, Chile.</h4></li>
-                        <li>Position: <a class="position-link" href="#">Development Engineer</a></li>
-                        <li><strong>Projects: </strong>
-                            <ul>
-                                <li>- Conveyor Belt Dock Ventilation System Assessment and Design 
-                                    Optimization for <strong>AngloAmerican</strong>, in Los Pelambres 
-                                    Mineral Concentrate Dock. Los Vilos, Chile.</li>
-                                <li>- Electrowinning Plant Ventilation System Design and 
-                                    Implementation for <strong>BHP Billiton</strong>, Spence and 
-                                    Escondida Mining Projects.</li>
-                                <li>- Dust Control Suppression System for <strong>BHP Billiton</strong>, 
-                                    in Escondida Mine Crushing Plant.</li>
-                            </ul>
-                        </li>
-                        <li>I participated in site secognition visits, problem analysis and modelling, basic solution design, project cost estimation, proposal development, acreditation and mobilization of resources to site, contract management and contract closing.. I was in charge of cost estimation and economic proposal development.</li>
-                    </ul>
+            <div class="row" id="same-business-development">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2017.09 to 2019.02</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Business Development Engineer</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>SAME Ingeniería S.A.</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                In my role, I actively participated in site reconnaissance visits, 
+                                conducted thorough problem analysis and modeling, and designed 
+                                basic solutions to address identified issues. I was responsible 
+                                for project cost estimation, proposal development, 
+                                accreditation and mobilization of resources to the site, and seamless 
+                                contract management. I attended some company flagship contractual issues.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Projects:</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        - Computational simulation and engineering desing for an <a href="http://www.same.cl/?categorias=general-ventilation" target="_blank">Assisted Natural-Secondary Ventilation System</a> for Spence Electrowinning
+                                        Plant of <strong>BHP Billiton</strong>.
+                                    </li>
+                                    <li>
+                                        - Supply of <a href="http://www.same.cl/?proyectos=minera-escondida-bhp-billiton-chile" target="_blank">Acid Mist Control Systems</a> for Escondida Electrowinning Plant of <strong>BHP Billiton</strong>
+                                    </li>
+                                    <li>
+                                        - Engineering service closing, consisting in the design of a <a href="http://www.same.cl/?proyectos=molyb-codelco-chile" target="_blank">Molybdenum Blast Furnace Gases Control System</a> for <strong>Molyb - CODELCO</strong>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://media.licdn.com/dms/image/C5622AQFg0H1iVVYKdQ/feedshare-shrink_1280/0/1579828613661?e=1719446400&v=beta&t=xrsq9yrq_BqqrQv3wEhLAwa0b8vQa-3_lFILu99DeJk" alt="Job Image">
+                    <img src="https://media.licdn.com/dms/image/C5622AQFg0H1iVVYKdQ/feedshare-shrink_1280/0/1579828613661?e=1719446400&v=beta&t=xrsq9yrq_BqqrQv3wEhLAwa0b8vQa-3_lFILu99DeJk" alt="SAME - Business Development Engineer">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2015-2017:<br> AP Construcciones SpA. Santiago, Chile.</h4></li>
-                        <li>Position: <a class="position-link" href="#">Technical Unit Manager</a></li>
-                        <li><strong>Projects: </strong>
-                            <ul>
-                                <li>
-                                    - Construction of Hydropower Plant Intake: Excavation and Civil Works,
-                                     for  <strong>Generadora HidroÑuble</strong>. 
-                                     San Fabián de Alico, Chile. (US$ ~5 million).
-                                </li>
-                                <li>
-                                    - Slope Stabilization in Route-5 Highway near to Angostura Tall
-                                    Construction for <strong>Ferrovial</strong>. Angostura, Chile.
-                                    (US$ ~1 million).
-                                </li>
-                                <li>
-                                    - Excavation and Stabilization of Metro Interconnection Tunnel
-                                     of Metro Franklin for <strong>Ferrovial</strong>. 
-                                     Santiago, Chile (US$ ~2 million).
-                                </li>
-                            </ul>
-                        </li>
-                        <li>I was in charge of business development, engineering review, planning, costing, proposal development, client negotiations, contract review, mobilization and acreditation, construction progress control, payments collection, claim management and contract closing.</li>
-                    </ul>
+            <div class="row" id="ap-technical-unit-manager">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2015.03 to 2017.07</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Technical Unit Manager</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>AP Constructiones</strong> SpA.</td>
+                        </tr>
+                        <tr>
+                            <td>Projects:</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        - Construction of Hydropower Plant Intake: Excavation and CivilWorks, for <strong>Generadora HidroÑuble</strong>. San Fabián de Alico, Chile. (US$ ~5 million).
+                                    </li>
+                                    <li>
+                                        - Slope Stabilization in Route-5 Highway near to Angostura Tall Construction for <strong>Ferrovial</strong>. Angostura, Chile. (US$ ~1 million).
+                                    </li>
+                                    <li>
+                                        - Excavation and Stabilization of Metro Interconnection Tunnel of Metro Franklin for <strong>Ferrovial</strong>. Santiago, Chile (US$ ~2 million).
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                During my tenure, I successfully expanded company sales by eightfold. My responsibilities included business development, engineering reviews, planning, costing, proposal development, client negotiations, and contract reviews. I also managed mobilization, accreditation, construction progress, payment collections, claims, and contract closures. I ensured precise and efficient execution of every stage of the project lifecycle.
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNa9lKxP5bNKNfy_SRbBDVcypcuhjJHX_fVdhMhz6XKV9GE__adlCTUDZ5Gy_oyjX90n70Fddu65EkwWkUe96vqh2OncwrSgYLEGBEwWm6n9xoe0gJSkkauGEZJTuj-jZAyqYjXQ79iXFO/s1600/hidro%25C3%25B1uble_debe_replantearse.jpg" alt="Job Image">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNa9lKxP5bNKNfy_SRbBDVcypcuhjJHX_fVdhMhz6XKV9GE__adlCTUDZ5Gy_oyjX90n70Fddu65EkwWkUe96vqh2OncwrSgYLEGBEwWm6n9xoe0gJSkkauGEZJTuj-jZAyqYjXQ79iXFO/s1600/hidro%25C3%25B1uble_debe_replantearse.jpg" alt="AP - Project Manager">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2014:<br> Can-Can Mining Company (COPEC Holding). Petorca, Chile.</h4></li>
-                        <li>Position: <a class="position-link" href="#">Underground Mining Operations Chief</a></li>
-                        <li><strong>Project: </strong> Exploitation of high-grade gold veing mines 
-                            with Back&Fill and Bench&Fill Mining Methods (US$ ~23 million).</li>
-                        <li>
-                            I was responsible of executing short-term underground mining plan, 
-                            supervising drilling, blasting, loading, hauling and dumping of ore
-                             and waste. This experience gave me expertise in managing underground 
-                             mining operations and deeply understanding workers and machinery 
-                             requirements to optimize operations.
-                        </li>
-                    </ul>
+            <div class="row" id="cancan-underground-operations-chief">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2014.01 to 2014.12</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link"> Chief of Underground Mining Operations</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>Can-Can</strong> Mining Company (COPEC Mining Subsidiary)</td>
+                        </tr>
+                        <tr>
+                            <td>Project:</td>
+                            <td>El Bronce de Petorca Gold Mine</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Petorca, Región de Valparaíso. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>~$US$ 23 millions</td>
+                        </tr>
+                        <tr>
+                            <td>My Team:</td>
+                            <td>3 supervisors, 12 foreman, 200 direct mining workers</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                In my most pivotal operations role, I was responsible for supervising all underground mining operations to meet a daily production goal of approximately 2,500 tonnes of high-grade gold ore. I executed short-term mining plans by overseeing drilling, blasting, loading, hauling, and unloading of ore and waste. This role provided me with extensive expertise in managing underground mining operations and a profound understanding of both worker and machinery requirements. I leveraged this knowledge to optimize operational efficiency and ensure the successful achievement of production targets.
+                            </td>
+                        </tr>
+
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://elamerica.cl/wp-content/uploads/2022/01/mina-can-can-780x470.jpeg" alt="Job Image">
+                    <img src="https://elamerica.cl/wp-content/uploads/2022/01/mina-can-can-780x470.jpeg" alt="cancan-chiefofmines">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2013:<br> Consorcio TREPSA-Cerro Alto S.A. Rancagua, Chile</h4></li>
-                        <li><strong>Project: </strong>Presstripping and 1st Exploitation Phase of Rajo Sur copper Mine, El Teniente, CODELCO. (US$ ~130 million).</li>
-                        <li>Position:<a class="position-link" href="#">Technical Office Engineer</a></li>
-                        <li>
-                            Responsible for monitoring physical progress, costs, and machinery 
-                            performance for the Consortium. This project involved the first 
-                            open-pit operations at El Teniente Mine, providing valuable insight 
-                            into CODELCO's operations.
-                        </li>
-                    </ul>
+            <div class="row" id="trepsa-technical-unit-engineer">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2013.02 to 2013.12</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Technical Unit Engineer</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>Trepsa - CerroAlto Consortium</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Project:</td>
+                            <td>Prestripping and 1st Stage Mining of Rajo Sur, El Teniente, <strong>CODELCO</strong>.</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Sewell (Mina El Teniente), Región de O'Higgins. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>~$US$ 130 millions</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                In my role, I was responsible for analyzing machinery reports and estimating total project costs and revenues in alignment with the company's asset management-focused methodology, specifically utilizing ASARCO KPIs. Additionally, I monitored physical progress, managed costs, and assessed machinery performance for the Consortium. This project provided me with valuable insights into CODELCO's operations, particularly through the initiation of open-pit operations at the El Teniente Mine.
+                            </td>
+                        </tr>
+
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://media.licdn.com/dms/image/D4E22AQG840Zyg-RouQ/feedshare-shrink_800/0/1714565713188?e=2147483647&v=beta&t=ezODWq_eGeBmkDBrEP3m0hPS2a0IeW6RA-f-s7mrZD0" alt="Job Image">
+                    <img src="https://media.licdn.com/dms/image/D4E22AQG840Zyg-RouQ/feedshare-shrink_800/0/1714565713188?e=2147483647&v=beta&t=ezODWq_eGeBmkDBrEP3m0hPS2a0IeW6RA-f-s7mrZD0" alt="trepsa-technical-unit-engineer">
                 </div>
             </div>
-            <br>
-
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2012:<br> <a href="https://www.cemin.com/">CEMIN Mining Holding</a>. Chañaral, Chile</h4></li>
-                        <li><strong>Project: </strong>High-grade narrow-vein gold mining and exploration (US$ ~5 million).</li>
-                        <li>Position:<a class="position-link" href="#">Technical Office Engineer</a></li>
-                        <li>
-                            After SERNAGEOMIN closed the mine due to a severe accident, I was hired to design and implement
-                            a  new Health, Safety, Environment and Operations Management System to reactivate mining operations.
-                              After recovering working permits, I was in charge of gold mines prospection 
-                              , to and mining, in order to produce 12,000 tonnes per month to delivery to
-                              <a href="https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/10309">
-                                Falda Verde Cyanidation Plant</a>, a company owned processing plant located in Chañaral Bay.
-                        </li>
-                    </ul>
+            
+            <div class="row" id="cemin-mines-chief">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2011.12 to 2012.12</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Chief of Mines</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>CEMIN</strong> Mining Holding</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Chañaral, Región de Atacama. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>~$US$ 5 millions</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>Following the closure of the mine by SERNAGEOMIN due to a severe accident, I was hired to design and implement a comprehensive Health, Safety, Environment, and Operations Management System to reactivate mining operations. Once we successfully reacquired the necessary working permits, I took charge of gold mine prospecting and mining activities. My efforts resulted in achieving a production target of 12,000 tonnes per month from 5 different mines, which was then delivered to the Falda Verde Cyanidation Plant, a company-owned processing facility located in Chañaral Bay.</td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://www.sernageomin.cl/wp-content/uploads/2023/09/FOTITO-NEBE.jpg" alt="Job Image">
+                    <img src="https://www.sernageomin.cl/wp-content/uploads/2023/09/FOTITO-NEBE.jpg" alt="cemin-mines-chief">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2011:<br> Chamuscada Mining Company. Canela Baja, Chile</h4></li>
-                        <li><strong>Project: </strong>High-grade narrow-vein gold mining and mineral (US$ ~2 million).</li>
-                        <li>Position:<a class="position-link" href="#">Technical Office Engineer</a></li>
-                        <li>
-                            I was in charge of managing ENAMI Drilling Exploration Project and, after 
-                            successful discoveries, of permit obtaining, mine reactivation, mining and 
-                            mineral processing to obtain high-grade gold concentrates.
-                        </li>
-                    </ul>
+            <div class="row" id="chamu-technical-unit-engineer">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2010.04 to 2011.06</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Technical Unit Engineer</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>Chamuscada</strong> Mining Company</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Canela Baja, Región de Coquimbo. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Budget:</td>
+                            <td>~$US$ 2 millions</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                I was responsible for overseeing the ENAMI Drilling Exploration Project. Following successful discoveries, I managed the permit acquisition, mine reactivation, and mining operations, culminating in the production of high-grade gold concentrates through mineral processing.
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://www.ing.uc.cl/mineria/wp-content/uploads/2016/04/img_5565.jpg" href="https://www.ing.uc.cl/mineria/novedades/salidas-terreno/2016-2/salida-terreno-minera-chamuscada/" alt="Job Image">
+                    <img src="https://www.ing.uc.cl/mineria/wp-content/uploads/2016/04/img_5565.jpg" alt="chamu-technical-unit-engineer">
                 </div>
             </div>
-            <br>
 
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li><h4>2009-2010:<br>Antolín Cisternas y Cía. S.A. Various locations in Chile</h4></li>
-                        <li>Position:<a class="position-link" href="#">Technical Unit Assistant</a></li>
-                        <li><strong>Projects: </strong>
-                            <ul>
-                                <li>
-                                    - Tunnel stabilization with shotcrete on <a href="https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1735" target="_blank">Carmen and Margarita Mines</a>, 
-                                    for <a href="https://www.guiaminera.cl/minera-las-cenizas/" target="_blank">Minera Las Cenizas</a>. Cabildo, Chile.
-                                </li>
-                                <li>
-                                    - Tunnel excavation and stabilization on Papomono Mine, for <strong>
-                                    Minera Vale</strong>. Illapel, Chile.
-                                </li>
-                                <li>
-                                    - Slope stabilization in Los Pelambres Facilities, for <strong>
-                                    Antofagasta Minerals</strong>. Salamanca, Illapel.
-                                </li>
-                            </ul>
-                        </li>
-
-                    </ul>
+            <div class="row" id="ac-technical-unit-engineer">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2009.02 to 2010.03</td>
+                        </tr>
+                        <tr>
+                            <td>Position:</td>
+                            <td><a class="position-link">Technical Unit Assistant</a></td>
+                        </tr>
+                        <tr>
+                            <td>Company:</td>
+                            <td><strong>Antolín Cisternas</strong> and Company S.A.</td>
+                        </tr>
+                        <tr>
+                            <td>Projects:</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        - Tunnel stabilization with shotcrete on 
+                                        <a href="https://snifa.sma.gob.cl/UnidadFiscalizable/Ficha/1735" target="_blank">
+                                        Carmen and Margarita Mines</a>, 
+                                        for <a href="https://www.guiaminera.cl/minera-las-cenizas/" target="_blank">
+                                        Minera Las Cenizas</a>. Cabildo, Chile.
+                                    </li>
+                                    <li>
+                                        - Tunnel excavation and stabilization on Papomono Mine, for <strong>
+                                        Minera Vale</strong>. Illapel, Chile.
+                                    </li>
+                                    <li>
+                                        - Slope stabilization in Los Pelambres Facilities, for <strong>
+                                        Antofagasta Minerals</strong>. Salamanca, Illapel.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                Reporting directly to the Project Manager, I began by analyzing machinery and work reports to control costs and monitor progress. Over time, my responsibilities expanded to include payment processing, resolving contractual disputes, cost estimation, and general planning and contract management.
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
                     <a href="https://www.youtube.com/watch?v=1DGpgh_RWFo" target="_blank">
@@ -525,167 +826,200 @@
                     </a>
                 </div>
             </div>
-            <br>
 
 
         </div>
     </section>
-
+    
     <section id="academics">
         <div class="container">
+            <h3>Graduate Studies</h3>
+
+            <div class="row">
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2009.03 to 2011.12</td>
+                        </tr>
+                        <tr>
+                            <td>Studies:</td>
+                            <td><a class="position-link" href="http://admision.userena.cl/media/attachments/2023/09/29/25017_ingenieria_de_minas.pdf" target="_blank">Applied Mining Engineer</a></td>
+                        </tr>
+                        <tr>
+                            <td>Institution:</td>
+                            <td>University of La Serena</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>La Serena, Región de Coquimbo. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                I possess a strong foundation in mining and metallurgical operations management, complemented by a multidisciplinary education designed to promote a holistic understanding of mining project development and management skills. I pursued this advanced stage of studies while actively working on mining projects near my hometown, which provided invaluable insights for both my academic pursuits and professional growth.
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+                <div class="image-container">
+                    <img src="https://www.campografia.cl/wp-content/uploads/2016/06/20140528-El-Brillador_0035-Medium.jpg" alt="uls-mining-engineering">
+                </div>
+            </div>
+
             <h3>Academic Background</h3>
             
             <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li>
-                            <h4>2009 to 2011:<br>
-                                <a href="http://admision.userena.cl/media/attachments/2023/09/29/25017_ingenieria_de_minas.pdf">
-                                    Applied Mining Engineer.</a><br>
-                                University of La Serena. Chile.
-                            </h4>
-                        </li>
-                        <li><strong>Highlights: </strong>
-                            Strong formation in mining and metallurgic operations management. 
-                            I received a multidisciplinary formation, aiming to promote holistic
-                             understanding of mining projects development and management skills. 
-                             I did this second stage of studies while working in mining projects near 
-                             to my hometown, providing me valuable insights for my academic 
-                             and professional career.</li>
-                    </ul>
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2023.03 to 2023.08</td>
+                        </tr>
+                        <tr>
+                            <td>Programme:</td>
+                            <td>
+                                <strong>Data Science and Machine Learning</strong>: Making Data-Driven Decisions.                  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Institution:</td>
+                            <td><strong>MIT Schwartman Collegue of Computing</strong></td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                This comprehensive 6-month course delves into Big Data Processing, Advanced Statistical Analysis, and Machine Learning Methods. Furthermore, it explores various applications of Artificial Intelligence, including Computer Vision and Generative AI. The course also covers practical applications relevant to my job profile, such as photovoltaic (PV) fault detection, Health, Safety, and Environment (HSE) machine learning protocols, and other industry-specific use cases. These advanced skills have allowed me to enhance operational efficiency and safety standards within my professional setting.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Certificate:</td>
+                            <td>Can be verified here <a href="https://verify.mygreatlearning.com/verify/HAZXISXQ">https://verify.mygreatlearning.com/verify/HAZXISXQ</a></td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://www.campografia.cl/wp-content/uploads/2016/06/20140528-El-Brillador_0035-Medium.jpg" alt="Job Image">
+                    <img src="https://d9jmtjs5r4cgq.cloudfront.net/CertificateAndTranscript/92321/original/ZERY_C3_A1N_GUERRA_certificate20230905-582-44ifqq.jpg" alt="mit-ds">
                 </div>
             </div>
-            <br>
 
             <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li>
-                            <h4>2004 to 2007:<br>
-                                <a href="http://admision.userena.cl/media/attachments/2023/09/27/25005_ingenieria_civil_ambiental1.pdf">
-                                    Environmental Civil Engineer</a><br>
-                                University of La Serena. Chile. (Uncompleted)
-                            </h4>
-                        </li>
-                        <li><strong>Highlights: </strong>
-                            8 semesters successfully completed. Strong formation in advanced mathematics, physics, statistics, economics and earth sciences. Most classes I coursed here were
-                             homologated in my definitive Mining Engineer pregrade studies.</li>
-                    </ul>
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2016.03 to 2017.07</td>
+                        </tr>
+                        <tr>
+                            <td>Programme:</td>
+                            <td>
+                                <a href="https://www.research-in-germany.org/energinno/recent-campaigns/innomine-chile0.html">
+                                Innomine Chile - Research in Germany Programme</a>                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Institution:</td>
+                            <td><strong>Fraunhofer Institute</strong> of Advanced Research</td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Santiago, Chile. Various locations in Germany.</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                Alongside 24 advanced researchers and cutting-edge technology developers, I participated in a joint applied research project with collaborators in Germany. After sharing our results, we arranged a tour to visit 13 Fraunhofer Research Centres, where we met in person, exchanged ideas, and forged stronger alliances aimed at developing innovative mining technologies with the support of German researchers. I was selected for this program due to my undergraduate research, which focused on enhancing the leaching of copper-gold bearing ores using cyanide solutions and hydrogen peroxide, yielding satisfactory results.
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://lh6.googleusercontent.com/proxy/nAiBFqHvoqfPW7StHcLhCvc4V0HnykjbTYdDrslPmA3vEqCeSNIo5h4ECkH_JladanT-qgTVz6Xa7igo_utAOaWJtqvcimHj53wfFCP-8VYtAcy2uW6imwS-zwSdWb8NR-TB4FiPfrTteD0gDxOi2HLH_Vwy3ptAjIZAsurq2w" alt="Job Image">
+                    <img src="https://media.licdn.com/dms/image/C5622AQG30JOV4051aw/feedshare-shrink_2048_1536/0/1579148879606?e=1719446400&v=beta&t=KnSoDC8U0VEDzJQBZb8qdcZa1rn-EfFFS-FuRUaBWdE" alt="innomine">
                 </div>
             </div>
-            <br>
-
-            <h3>Complementary Formation</h3>
 
             <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li>
-                            <h4>2016-2017<br>
-                            <a href="https://www.research-in-germany.org/energinno/recent-campaigns/innomine-chile0.html">
-                                Innomine Chile - Research in Germany Programme</a><br>
-                            DaaD - Fraunhofer Institute of Advanced Research
-                            </h4>
-                        </li>
-
-                        
-
-                        <li>
-                            <strong>Highlights: </strong><br>
-                            Among with other 24 advanced researchers and cutting-edge 
-                            technology developers, we develop joint applied research project with collaborators
-                            Germany. After sharing results, we arrange a tour to to visit 13 Fraunhfer 
-                            Research Centres met in person, exchange ideas and create stronger alliances 
-                            to develop innovative mining technologies with Germany Researchers Support. 
-                            I was selected for my pregrade research developments enhancing leaching of 
-                            copper-gold bearing ores using cyanide solutions and hydrogen peroxide, with
-                            satisfactory results.
-                        </li>
-                    </ul>
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2010.07 to 2010.09</td>
+                        </tr>
+                        <tr>
+                            <td>Programme:</td>
+                            <td>
+                                <strong>2nd International Summer School for Mining Engineers</strong>.                           
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Institution:</td>
+                            <td>
+                                <a href="https://www.agh.edu.pl/en">Akademia Gornizco Hurnitza</a><br>
+                                a.k.a. University of Mining and Metallurgy. Krakow, Poland.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Krakow, Poland</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                For my exceptional academic performance and advanced English proficiency, I was awarded an international scholarship to travel to Krakow. During this 3-week field course, I participated in engaging lectures and hands-on laboratory sessions focused on coal, salt, quarry, and base metals mining in Poland. The program also included field visits to five operational mines, providing invaluable practical experience and insights into the mining industry.
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://media.licdn.com/dms/image/C5622AQG30JOV4051aw/feedshare-shrink_2048_1536/0/1579148879606?e=1719446400&v=beta&t=KnSoDC8U0VEDzJQBZb8qdcZa1rn-EfFFS-FuRUaBWdE" alt="Job Image">
+                    <img src="https://study.gov.pl/sites/default/files/styles/wiz/public/foto_ucz_wiz/1/id_139_4.jpg?itok=Zj6Orch-" alt="agh">
                 </div>
             </div>
-            <br>
-
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li>
-                            <h4>2016 to 2017:<br>
-                            Data Science and Machine Learning: <br>Making Data-Driven Decisions,<br> 
-                            <a href="https://idss-gl.mit.edu/mit-idss-data-science-machine-learning-program?&utm_source=Google&utm_medium=search&utm_campaign=DSML_Int_LAC_Generic_Phrase&campaign_id=20775422364&adgroup_id=154964109359&ad_id=681046636693&utm_target=kwd-27111326778&Keyword=data%20science%20course&placement=&gad_source=1&gclid=CjwKCAjwr7ayBhAPEiwA6EIGxIsWIerXx3zbSQW7IR9qFIGrL9xPLDrcrI55GS040YLjRRcG4m8EJRoCUwcQAvD_BwE">MIT Schwartman Collegue of Computing</a>.
-                            </h4>
-                        </li>
-                        <li><strong>Highlights: </strong>
-                            6 months course focuses on Big-Data Processing, Advanced Statistical 
-                            Analysis, Machine Learning Methods and Artificial Intelligence applications 
-                            like Computer Vision and Generative AI.</li>
-                        <li>Can be verified here <a href="https://verify.mygreatlearning.com/verify/HAZXISXQ">https://verify.mygreatlearning.com/verify/HAZXISXQ</a></li>
-                    </ul>
-                </div>
-                <div class="image-container">
-                    <img src="https://d9jmtjs5r4cgq.cloudfront.net/CertificateAndTranscript/92321/original/ZERY_C3_A1N_GUERRA_certificate20230905-582-44ifqq.jpg" alt="Job Image">
-                </div>
-            </div>
-            <br>
 
             <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li>
-                        <h4>
-                            2010.08 to 2010.10<br>
-                            2nd Summer School for Mining Engineer.<br> 
-                            <a href="https://www.agh.edu.pl/en">Akademia Gornizco Hurnitza</a><br>
-                            a.k.a. University of Mining and Metallurgy. Krakow, Poland.
-                        </h4>
-                        </li>
-                        <li><strong>Highlights: </strong>
-                            For my good academic performance and advances english level, I received this internation scholarship to travel to
-                            Krakow to participate in a 3 weeks field course, in which we had intersting lectures and laboratory sessions about coal, 
-                            salt, quarry and base metals mining in Poland, among with field visits to 5 operative mines.
-                    </ul>
+                <div class="text-container" >
+                    <table>
+                    <tbody>
+                        <tr>
+                            <td>Period:</td>
+                            <td>2010.03 to 2010.06</td>
+                        </tr>
+                        <tr>
+                            <td>Programme:</td>
+                            <td>
+                                <strong>Applied Geochemistry for Environmental Impact Assesment and Mineral Exploration.</strong>.                           
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Institution:</td>
+                            <td>
+                                <strong>University of Castilla-La Mancha</strong> (Spain) & <strong>University of La Serena</strong> (Chile).
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Punitaque, Region de Coquimbo. Chile.</td>
+                        </tr>
+                        <tr>
+                            <td>Description:</td>
+                            <td>
+                                During this 3-months Field Course, we learn how to design and execute sammpling campaigns and how to use Kriging Method to unveil hidden patterns on stream sediments in Coquimbo Region. We discovered that concentrations of heavy metals like copper, zinc and arsenium are not driven by mining activity in the area, but controlled by geological formations rich in those metals. Main mining projects in the region are located in these geologically interesting areas, resulting in a false causality between mining activity and heavy metals concentrations in soil and surface waters.
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
                 <div class="image-container">
-                    <img src="https://study.gov.pl/sites/default/files/styles/wiz/public/foto_ucz_wiz/1/id_139_4.jpg?itok=Zj6Orch-" alt="Job Image">
+                    <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00254-007-0643-8/MediaObjects/254_2007_643_Fig4_HTML.gif" alt="agh">
                 </div>
             </div>
-            <br>
-             
-            <div class="row">
-                <div class="text-container">
-                    <ul>
-                        <li>
-                        <h4>
-                            2010.03 to 2010.06<br>
-                            Applied Geochemistry for Environmental Impact Assesment and Mineral Exploration.<br>
-                            University of Castilla-La Mancha (Spain) & University of La Serena (Chile).
-                        </h4>
-                        </li>
-                        <li><strong>Highlights: </strong>
-                            During this 3-months Field Course, we learn how to design and execute 
-                            sammpling campaigns and how to use Kriging Method to unveil hidden patterns 
-                            on stream sediments in Coquimbo Region. We discovered that concentrations 
-                            of heavy metals like copper, zinc and arsenium are not driven by mining 
-                            activity in the area, but controlled by geological formations rich in 
-                            those metals. Main mining projects in the region are located in these 
-                            geologically interesting areas, resulting in a false causality between 
-                            mining activity and heavy metals concentrations in soil and surface waters.</li>
-                    </ul>
-                </div>
-                <div class="image-container">
-                    <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00254-007-0643-8/MediaObjects/254_2007_643_Fig4_HTML.gif" alt="Job Image">
-                </div>
-            </div>
-            <br>
         </div>
     </section>
 
