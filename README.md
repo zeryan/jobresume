@@ -9,7 +9,6 @@
 
 -------------------------------------------------------------------------------------------------------
 ### Actions
-- [Print PDF](javascript:window.print())
 - [See PDF Online](https://github.com/zeryan/jobresume/blob/main/Zery%C3%A1n%20Guerra%20-%20Mining%20Operations%20Engineer.pdf)
 
 -------------------------------------------------------------------------------------------------------
