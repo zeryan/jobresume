@@ -49,6 +49,7 @@ I oversee the work of Subcontractors all along the Project, ensuring they fulfil
 
 ![PowerChina - Subcontractor Manager](https://media.licdn.com/dms/image/D4E22AQFu8Ml2-gzJAA/feedshare-shrink_2048_1536/0/1709392195623?e=1719446400&v=beta&t=_srMmxeOUZZc-fWurtCeNN4sJxZkzK2W3_YWyHkiEtA)  
 
+-------------------------------------------------------------------------------------------------------
 #### Admiral HR Consulting (by ENEL Green Power)
 
 **Site Support Engineer**  
@@ -62,6 +63,7 @@ Analysis of incoming main contractor reports used to estimate and report daily c
 
 ![Admiral. Site Support Engineer](https://www.paiscircular.cl/wp-content/uploads/2022/09/SOL-DE-LILA-2.jpg)  
 
+-------------------------------------------------------------------------------------------------------
 #### BESALCO Energía Renovable S.A.
 
 **Technical Unit Manager**  
@@ -76,6 +78,7 @@ Managed the civil and mechanical construction phases. Strategic development, sup
 
 ![Besalco - Technical Unit Manager](https://www.ladiscusion.cl/wp-content/uploads/2021/05/image004-1-e1621940718970.jpg)  
 
+-------------------------------------------------------------------------------------------------------
 **Technical Unit Engineer**  
 _Period:_ 2019.03 to 2021.02  
 
@@ -87,6 +90,7 @@ Managed construction and business plans, resource mobilization, engineering draw
 
 ![Besalco - Technical Unit Engineer](http://www.besalcoenergia.cl/wp-content/uploads/2021/03/Digua-2-1024x768.jpg)  
 
+-------------------------------------------------------------------------------------------------------
 #### SAME Ingeniería S.A.
 
 **Business Development Engineer**  
@@ -100,7 +104,7 @@ Projects:
 - Engineering service for Molybdenum Blast Furnace Gases Control System for **Molyb - CODELCO**.
 
 ![SAME - Business Development Engineer](https://media.licdn.com/dms/image/C5622AQFg0H1iVVYKdQ/feedshare-shrink_1280/0/1579828613661?e=1719446400&v=beta&t=xrsq9yrq_BqqrQv3wEhLAwa0b8vQa-3_lFILu99DeJk)  
-
+-------------------------------------------------------------------------------------------------------
 #### AP Constructiones SpA.
 
 **Technical Unit Manager**  
@@ -113,7 +117,7 @@ _Period:_ 2015.03 to 2017.07
 Managed business development, planning, costing, client negotiations, contract reviews, project mobilization, progress monitoring, payment collection, claims, and project closures.
 
 ![AP - Project Manager](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNa9lKxP5bNKNfy_SRbBDVcypcuhjJHX_fVdhMhz6XKV9GE__adlCTUDZ5Gy_oyjX90n70Fddu65EkwWkUe96vqh2OncwrSgYLEGBEwWm6n9xoe0gJSkkauGEZJTuj-jZAyqYjXQ79iXFO/s1600/hidro%25C3%25B1uble_debe_replantearse.jpg)  
-
+-------------------------------------------------------------------------------------------------------
 #### Can-Can Mining Company (COPEC Mining Subsidiary)
 
 **Chief of Underground Mining Operations**  
@@ -126,9 +130,9 @@ _Location:_ Petorca, Región de Valparaíso. Chile.
 In my pivotal operations role, I supervised all underground mining operations to meet a daily production goal of approximately 2,500 tonnes of high-grade gold ore. I oversaw drilling, blasting, loading, hauling, and unloading of ore and waste. Extensive expertise in managing underground mining operations, optimizing operational efficiency, and ensuring successful achievement of production targets.
 
 ![Can-Can Chief of Mines](https://elamerica.cl/wp-content/uploads/2022/01/mina-can-can-780x470.jpeg)  
+-------------------------------------------------------------------------------------------------------
 
 #### Trepsa - CerroAlto Consortium
-
 **Technical Unit Engineer**  
 _Period:_ 2013.02 to 2013.12  
 - **Project:** Prestripping and 1st Stage Mining of Rajo Sur, El Teniente, **CODELCO**  
@@ -139,8 +143,9 @@ Analyzed machinery reports, estimated project costs and revenues, monitored phys
 
 ![Trepsa Technical Unit Engineer](https://media.licdn.com/dms/image/D4E22AQG840Zyg-RouQ/feedshare-shrink_800/0/1714565713188?e=2147483647&v=beta&t=ezODWq_eGeBmkDBrEP3m0hPS2a0IeW6RA-f-s7mrZD0)  
 
-#### CEMIN Mining Holding
+-------------------------------------------------------------------------------------------------------
 
+#### CEMIN Mining Holding
 **Chief of Mines**  
 _Period:_ 2011.12 to 2012.12  
 - **Location:** Chañaral, Región de Atacama. Chile  
@@ -149,9 +154,8 @@ _Period:_ 2011.12 to 2012.12
 Reactivated mining operations after the mine was closed due to a severe accident. Designed and implemented a comprehensive Health, Safety, Environment, and Operations Management System to resume mining activities. Achieved a production target of 12,000 tonnes per month from 5 different mines, delivering to the Falda Verde Cyanidation Plant.
 
 ![CEMIN Chief of Mines](https://www.sernageomin.cl/wp-content/uploads/2023/09/FOTITO-NEBE.jpg)  
-
+-------------------------------------------------------------------------------------------------------
 #### Chamuscada Mining Company
-
 **Technical Unit Engineer**  
 _Period:_ 2010.04 to 2011.06  
 - **Location:** Canela Baja, Región de Coquimbo. Chile  
@@ -160,7 +164,7 @@ _Period:_ 2010.04 to 2011.06
 Managed the ENAMI Drilling Exploration Project, permit acquisition, mine reactivation, and high-grade gold concentrate production through mineral processing.
 
 ![Chamuscada Technical Unit Engineer](https://www.ing.uc.cl/mineria/wp-content/uploads/2016/04/img_5565.jpg)  
-
+-------------------------------------------------------------------------------------------------------
 #### Antolín Cisternas and Company S.A.
 
 **Technical Unit Assistant**  
@@ -173,7 +177,7 @@ _Period:_ 2009.02 to 2010.03
 Analyzed machinery and work reports, managed costs, monitored progress, processed payments, resolved contractual disputes, cost estimation, general planning, and contract management.
 
 ![Antolín Cisternas Project](https://img.youtube.com/vi/1DGpgh_RWFo/hqdefault.jpg)
-
+-------------------------------------------------------------------------------------------------------
 ### Graduate Studies
 
 **Applied Mining Engineer**  
@@ -184,6 +188,7 @@ _Period:_ 2009.03 to 2011.12
 Strong foundation in mining and metallurgical operations management, multidisciplinary education promoting holistic understanding of mining project development and management skills.
 
 ![ULS Mining Engineering](https://www.campografia.cl/wp-content/uploads/2016/06/20140528-El-Brillador_0035-Medium.jpg)
+-------------------------------------------------------------------------------------------------------
 
 ### Academic Background
 
@@ -194,6 +199,7 @@ _Period:_ 2023.03 to 2023.08
 Explored Big Data Processing, Advanced Statistical Analysis, and Machine Learning Methods. Applications included PV fault detection, HSE machine learning protocols, and industry-specific use cases.
 
 ![MIT DS](https://d9jmtjs5r4cgq.cloudfront.net/CertificateAndTranscript/92321/original/ZERY_C3_A1N_GUERRA_certificate20230905-582-44ifqq.jpg)
+-------------------------------------------------------------------------------------------------------
 
 **Innomine Chile - Research in Germany Programme**  
 _Period:_ 2016.03 to 2017.07  
@@ -203,6 +209,7 @@ _Period:_ 2016.03 to 2017.07
 Joint applied research project with German collaborators, enhancing the leaching of copper-gold bearing ores using cyanide solutions and hydrogen peroxide.
 
 ![Innomine](https://media.licdn.com/dms/image/C5622AQG30JOV4051aw/feedshare-shrink_2048_1536/0/1579148879606?e=1719446400&v=beta&t=KnSoDC8U0VEDzJQBZb8qdcZa1rn-EfFFS-FuRUaBWdE)
+-------------------------------------------------------------------------------------------------------
 
 **2nd International Summer School for Mining Engineers**  
 _Period:_ 2010.07 to 2010.09  
@@ -211,7 +218,8 @@ _Period:_ 2010.07 to 2010.09
 - **Description:**  
 Awarded an international scholarship for exceptional academic performance. Participated in lectures, laboratory sessions, and field visits to operational mines in Poland.
 
-![AGH](https://study.gov.pl/sites/default/files/styles/wiz/public/foto_ucz_wiz/1/id_139_4.jpg?itok=Zj6Orch-)  
+![AGH](https://study.gov.pl/sites/default/files/styles/wiz/public/foto_ucz_wiz/1/id_139_4.jpg?itok=Zj6Orch-)
+-------------------------------------------------------------------------------------------------------  
 
 **Applied Geochemistry for Environmental Impact Assessment and Mineral Exploration**  
 _Period:_ 2010.03 to 2010.06  
@@ -222,7 +230,7 @@ Learned design and execution of sampling campaigns, using Kriging Method to unve
 
 ![Applied Geochemistry](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00254-007-0643-8/MediaObjects/254_2007_643_Fig4_HTML.gif)
 
-### Footer
+-------------------------------------------------------------------------------------------------------
 
 © 2023 Zeryán Guerra. All rights reserved.  
 [LinkedIn](https://www.linkedin.com/in/zeryan/) | [Email](mailto:zeryan.guerra@gmail.com) | [GitHub](https://github.com/zeryan)
