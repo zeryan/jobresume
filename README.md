@@ -5,7 +5,7 @@
 
 - Phone: [+569 5460 7132](tel:+56954607132)
 - Email: [zeryan.guerra@gmail.com](mailto:zeryan.guerra@gmail.com)
-- Location: La Serena, Chile (Available to move to any national or international location)
+- Location: La Serena, Chile.
 
 -------------------------------------------------------------------------------------------------------
 ### Actions
