@@ -48,7 +48,7 @@ _Period:_ 2022.03 to Date
 
 480MW [CEME1 PV Plant](https://en.powerchina.cn/2024-03/20/c_828676.htm), Substation, and 9.2km OHL Construction Project  
 _Location:_ María Elena, Región de Antofagasta. Chile.  
-Budget: ~ US$ 380 millions  
+Budget: ~ US$ 70 millions  
 My Team: 8 administratives, 3 engineers, and 1 lawyer, overseeing up to 81 subcontracts, 380 supply contracts, and 1200 subcontracted workers on-site at peak, totaling more than 3000 historically accredited workers along 2 years.  
 **Description:**  
 I oversee the work of Subcontractors all along the Project, ensuring they fulfill their contractual obligations and that the Contractor meets its subcontracting duties. My responsibilities include contract management, oversight of work and equipment safety, handling of contractual claims, and draft correspondence. Currently **Delivering to Client**.
