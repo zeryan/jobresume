@@ -48,7 +48,7 @@ _Period:_ 2022.03 to Date
 
 480MW [CEME1 PV Plant](https://en.powerchina.cn/2024-03/20/c_828676.htm), Substation, and 9.2km OHL Construction Project  
 _Location:_ María Elena, Región de Antofagasta. Chile.  
-Budget: ~ US$ 70 millions  
+Budget: ~ 400US$ milliones in total (US$ 70 millions directly managed by my team)
 My Team: 8 administratives, 3 engineers, and 1 lawyer, overseeing up to 81 subcontracts, 380 supply contracts, and 1200 subcontracted workers on-site at peak, totaling more than 3000 historically accredited workers along 2 years.  
 **Description:**  
 I oversee the work of Subcontractors all along the Project, ensuring they fulfill their contractual obligations and that the Contractor meets its subcontracting duties. My responsibilities include contract management, oversight of work and equipment safety, handling of contractual claims, and draft correspondence. Currently **Delivering to Client**.
@@ -63,7 +63,7 @@ _Period:_ 2021.09 to 2022.02
 
 161MW [Sol de Lila](https://www.enel.cl/es/conoce-enel/nuestras-centrales/planta-sol-de-lila.html) PV Plant, Substation, and 4km Overhead Line Construction  
 _Location:_ Peine, Región de Antofagasta. Chile.  
-Budget: ~US$ 130 millions  
+Budget: ~285 US$ milliones (US$ 130 millions supervised expenditure) 
 **Description:**  
 Analysis of incoming main contractor reports used to estimate and report daily construction cost and progress. Tasks included a mixture of data engineering and contract management.
 
@@ -77,7 +77,7 @@ _Period:_ 2021.03 to 2021.08
 
 154/23kV [Pueblo Seco Substation](https://www.cne.cl/archivos_bajar/Res_Ex_CNE_745_2018.pdf) and 2km Overhead Line Construction  
 _Location:_ Pueblo Seco (Chillán), Región de Ñuble. Chile.  
-Budget: ~US$ 4 million  
+Budget: ~US$ 20 million (7 million directly managed by my team)
 My Team: 2 engineers, 4 administratives  
 **Description:**  
 Managed the civil and mechanical construction phases. Strategic development, supervision, quality control, progress reporting, subcontractor selection, commercial contract management, and collaboration with project stakeholders.
@@ -90,7 +90,7 @@ _Period:_ 2019.03 to 2021.02
 
 20MW [Digua Dam Hydropower Plant](https://seia.sea.gob.cl/expediente/ficha/fichaPrincipal.php?id_expediente=2131476196)  
 _Location:_ Parral, Región de Ñuble. Chile.  
-Budget: ~$US$ 24 millions  
+Budget: ~US$ 30 million (14 million directly managed by me) 
 **Description:**  
 Managed construction and business plans, resource mobilization, engineering drawing verification, and commercial contract compliance. Transformed the Digua Dam into a 20MW power plant with extensive engineering efforts.
 
@@ -132,7 +132,7 @@ Managed business development, planning, costing, client negotiations, contract r
 _Period:_ 2014.01 to 2014.12  
 El Bronce de Petorca Gold Mine  
 _Location:_ Petorca, Región de Valparaíso. Chile.  
-- **Budget:** ~$23 millions  
+- **Budget:** ~23 US$ millions  
 - **My Team:** 3 supervisors, 12 foremen, 200 direct mining workers  
 - **Description:**  
 In my pivotal operations role, I supervised all underground mining operations to meet a daily production goal of approximately 2,500 tonnes of high-grade gold ore. I oversaw drilling, blasting, loading, hauling, and unloading of ore and waste. Extensive expertise in managing underground mining operations, optimizing operational efficiency, and ensuring successful achievement of production targets.
@@ -146,7 +146,7 @@ In my pivotal operations role, I supervised all underground mining operations to
 _Period:_ 2013.02 to 2013.12  
 - **Project:** Prestripping and 1st Stage Mining of Rajo Sur, El Teniente, **CODELCO**  
 - **Location:** Sewell (Mina El Teniente), Región de O'Higgins. Chile  
-- **Budget:** ~$130 millions  
+- **Budget:** ~130 US$ millions  
 - **Description:**  
 Analyzed machinery reports, estimated project costs and revenues, monitored physical progress, managed costs, and assessed machinery performance. Provided insights into CODELCO's operations, particularly the initiation of open-pit operations at the El Teniente Mine.
 
@@ -158,7 +158,7 @@ Analyzed machinery reports, estimated project costs and revenues, monitored phys
 **Chief of Mines**  
 _Period:_ 2011.12 to 2012.12  
 - **Location:** Chañaral, Región de Atacama. Chile  
-- **Budget:** ~$5 millions  
+- **Budget:** ~5 US$ millions  
 - **Description:**  
 Reactivated mining operations after the mine was closed due to a severe accident. Designed and implemented a comprehensive Health, Safety, Environment, and Operations Management System to resume mining activities. Achieved a production target of 12,000 tonnes per month from 5 different mines, delivering to the Falda Verde Cyanidation Plant.
 
@@ -169,7 +169,7 @@ Reactivated mining operations after the mine was closed due to a severe accident
 **Technical Unit Engineer**  
 _Period:_ 2010.04 to 2011.06  
 - **Location:** Canela Baja, Región de Coquimbo. Chile  
-- **Budget:** ~$2 millions  
+- **Budget:** ~2 US$ millions  
 - **Description:**  
 Managed the ENAMI Drilling Exploration Project, permit acquisition, mine reactivation, and high-grade gold concentrate production through mineral processing.
 
