@@ -8,10 +8,6 @@
 - Location: La Serena, Chile.
 
 -------------------------------------------------------------------------------------------------------
-### Actions
-- [See PDF Online](https://github.com/zeryan/jobresume/blob/main/Zery%C3%A1n%20Guerra%20-%20Mining%20Operations%20Engineer.pdf)
-
--------------------------------------------------------------------------------------------------------
 ### Summary
 
 Experienced Mining Engineer with 10+ years in project development and management across various industries, including mining, construction, and renewable energy. Proven ability to manage large-scale projects (US$150M/year) on time and within budget using data-driven approaches. Passionate about leveraging technology like AI and computer vision for project optimization. Seeking a challenging role in underground mining or power plant construction to contribute to project success and business growth through operational excellence and cutting-edge technology implementation.
